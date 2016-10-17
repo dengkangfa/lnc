@@ -45,4 +45,9 @@ class UserController extends Controller{
         }
 
     }
+
+    public function registered(){
+        echo 1;
+        $this->display();
+    }
 }

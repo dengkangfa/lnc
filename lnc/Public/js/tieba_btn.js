@@ -32,10 +32,9 @@ function sendMail(){
 		$.ajax({
 			url:'/lnc/Home/Main/sendEmail?email='+email+'&code='+getCode(6),
 			type:"GET",
-			data:$('#email').serialize(),
+			// data:$('#email').serialize(),
 			success: function(data) {
-				alert(1);
-				// alert(data);
+				alert(data['content']);
 			}
 		});
 }

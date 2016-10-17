@@ -1936,3 +1936,895 @@ ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
 [ 2016-10-16T14:39:53+08:00 ] ::1 /lnc/Public/dist/js/wangEditor.min.js
 ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
 
+[ 2016-10-16T15:02:45+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:47+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'D' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:49+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'F' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:02:49+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'FK' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:50+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'F' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:02:53+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'é‚“åº·å‘' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:04:32+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:50+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:04:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:04:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:04:54+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:09:46+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [1130] Host 'USER-20160708BT' is not allowed to connect to this MySQL server
+
+[ 2016-10-16T15:17:19+08:00 ] ::1 /LNC/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:23:49+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:23:50+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:24:45+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:24:49+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:24:52+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:25:47+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:25:50+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:25:51+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:27:15+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:27:18+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:28:29+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:28:31+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:31:27+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:31:28+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:32:42+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:32:45+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:32:47+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:32:50+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:33:07+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:33:09+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:33:14+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:33:16+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:33:20+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:33:21+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:33:22+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:33:23+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:40:58+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:41:00+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:41:03+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:41:05+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:41:06+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:56:45+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:57:04+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:57:05+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:01+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:03+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:05+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:21+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:23+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:25+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:26+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:27+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:28+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:29+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:51+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T15:59:53+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:43+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:45+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:46+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:47+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:48+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:49+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:50+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:51+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:52+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:54+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:55+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:56+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:57+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:01:58+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:05:49+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:05:51+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:12:56+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:12:59+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:13:01+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:13:05+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:13:24+08:00 ] ::1 /lnc/index
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+
+[ 2016-10-16T16:14:57+08:00 ] ::1 /lnc/tuiwen.html
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Tuiwen
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/dist/js/lib/jquery-1.10.2.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/css/all.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/css/tuiwenindex.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/all.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/index.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.c_pic%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.t_cover%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.b_headicon%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:54+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/css/index.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/css/all.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/%7B$vo.c_pic%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/%7B$vo.b_headicon%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/%7B$vo.t_cover%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:59+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:28:59+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/all.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/index.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.c_pic%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.b_headicon%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.t_cover%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:14+08:00 ] 127.0.0.1 /lnc/Home/View/Main/index.html
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:View
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/all.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/index.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.c_pic%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.t_cover%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.b_headicon%7D
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Application
+
+[ 2016-10-16T16:41:18+08:00 ] ::1 /lnc/index.html
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Index
+
+[ 2016-10-16T16:41:22+08:00 ] ::1 /lnc/index.html
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Index
+
+[ 2016-10-16T16:42:40+08:00 ] ::1 /lnc/index.html
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Index
+
+[ 2016-10-16T16:43:17+08:00 ] ::1 /lnc/index.html
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Index
+
+[ 2016-10-16T16:43:21+08:00 ] ::1 /lnc/index.html
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Index
+
+[ 2016-10-16T16:43:45+08:00 ] ::1 /lnc/Main/Main/index.html
+ERR: éæ³•æ“ä½œ:Main
+
+[ 2016-10-16T16:45:06+08:00 ] ::1 /lnc/index.php/Main/tuiwen.html
+ERR: éæ³•æ“ä½œ:tuiwen
+
+[ 2016-10-16T18:02:44+08:00 ] ::1 /lnc/index.php/Main/www.baidu.com
+ERR: éæ³•æ“ä½œ:www.baidu.com
+
+[ 2016-10-16T18:04:39+08:00 ] ::1 /lnc/index.php/Main/index.html
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Application/Home/View/Main/index.html
+
+[ 2016-10-16T18:04:57+08:00 ] ::1 /lnc/tuiwen.html
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Tuiwen
+
+[ 2016-10-16T18:05:39+08:00 ] ::1 /lnc/index.php/Main/NAN.html
+ERR: éæ³•æ“ä½œ:NAN
+
+[ 2016-10-16T18:07:27+08:00 ] ::1 /lnc/
+ERR: syntax error, unexpected '/'
+
+[ 2016-10-16T18:07:32+08:00 ] ::1 /lnc/index
+ERR: syntax error, unexpected '/'
+
+[ 2016-10-16T18:07:34+08:00 ] ::1 /lnc/index
+ERR: syntax error, unexpected '/'
+
+[ 2016-10-16T18:07:45+08:00 ] ::1 /lnc/index.php/Main/NAN.html
+ERR: éæ³•æ“ä½œ:NAN
+
+[ 2016-10-16T18:08:20+08:00 ] ::1 /lnc/index.php/Main/NAN.html
+ERR: éæ³•æ“ä½œ:NAN
+
+[ 2016-10-16T18:08:21+08:00 ] ::1 /lnc/index.php/Main/NAN.html
+ERR: éæ³•æ“ä½œ:NAN
+
+[ 2016-10-16T18:08:41+08:00 ] ::1 /lnc/index.php/index
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Index
+
+[ 2016-10-16T18:15:50+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:15:50+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:00+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:01+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:02+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:02+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:13+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:13+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:14+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:14+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:16+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:16+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:20+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:20+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:16:50+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2016-10-16T18:19:53+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/APP_PATH/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:21:26+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/APP_PATH/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:22:14+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/APP_PATH/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:24:13+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/dirname(APP_PATH)/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:24:37+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/APP_PATH/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:25:45+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:26:16+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:26:46+08:00 ] ::1 /lnc/User/lnc/Public/upload
+ERR: éæ³•æ“ä½œ:lnc
+
+[ 2016-10-16T18:26:46+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:27:08+08:00 ] ::1 /lnc/User/lnc/Main/index
+ERR: éæ³•æ“ä½œ:lnc
+
+[ 2016-10-16T18:27:08+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:27:46+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Cmeta%20charset=%22utf-8%22%20/%3E%3Ctitle%3E%E5%B2%AD%E5%8D%97%E6%A0%A1%E5%9B%AD%3C/title%3E%3Clink%20rel=%22stylesheet%22%20type=%22text/css%22%20href=%22/lnc/Public/css/index.css%22/%3E%3Clink%20rel=%22stylesheet%22%20type=%22text/css%22%20href=%22/lnc/Public/css/all.css%22/%3E%3Cscript%20src=%22/lnc/Public/js/jquery-3.1.1.min.js%22%20type=%22text/javascript%22%20charset=%22utf-8%22%3E%3C/script%3E%3C/head%3E%3Cbody%3E%3C!--%E9%A1%B5%E7%9C%89--%3E%3Cdiv%20id=%22top%22%3E%3Cdiv%20class=%22out%22%3E%3C!--logo--%3E%3Cdiv%20class=%22logo%22%3E%E5%B2%AD%E5%8D%97%E6%A0%A1%E5%9B%AD%3C/div%3E%3C!--%E5%AF%BC%E8%88%AA--%3E%3Cdiv%20class=%22tab%22%3E%3Cul%3E%3Cli%3E%3Ca%20href=%22/lnc%22%3E%E9%A6%96%E9%A1%B5%3C/a%3E%3C/li%3E%3Cli%3E%3Ca%20href=%22/lnc/Tweets/index%22%3E%E6%8E%A8%E6%96%87%3C/a%3E%3C/li%3E%3Cli%20id=%22tieba_btn%22%3E%E8%B4%B4%E5%90%A7%3Cdiv%20class=%22list%22%3E%3Ca%20href=%22tuiwen.html%22%3E%E5%8D%8F%E4%BC%9A%3C/a%3E%3Ca%20href=%22tuiwen.html%22%3E%E7%8F%AD%E7%BA%A7%3C/a%3E%3C/div%3E%3C/li%3E%3C/ul%3E%3C/div%3E%3C!--%E7%99%BB%E9%99%86%E6%8C%89%E9%92%AE%E4%BB%A5%E5%8F%8A%E6%90%9C%E7%B4%A2%E6%A1%86--%3E%3Cdiv%20class=%22btn_search%22%3E%3Cul%3E%3C!--%E6%B2%A1%E7%99%BB%E9%99%86--%3E%3Cli%20id=%22login_btn%22%3E%E7%99%BB%E9%99%86%3C/li%3E%3Cli%20style=%22width:%20170px;%22%3E%3Cinput%20type=%22search%22%20name=%22%22%20id=%22search%22%20value=%22%22%20placeholder=%22%E8%B4%B4%E5%90%A7/%E6%8E%A8%E6%96%87%22/%3E%3C/li%3E%3Cli%3E%3Cinput%20type=%22button%22%20name=%22%22%20id=%22%22%20value=%22%E6%90%9C%E7%B4%A2%22%20class=%22button%22/%3E%3C/li%3E%3C/ul%3E%3C/div%3E%3C/div%3E%3C/div%3E%3C!--%E7%99%BB%E9%99%86%E7%AA%97%E5%8F%A3--%3E%3Cdiv%20id=%22login_register%22%3E%3C!--%E7%99%BB%E9%99%86%E6%A1%86%E4%B8%8E%E6%B3%A8%E5%86%8C%E6%A1%86--%3E%3Cdiv%20class=%22left%22%3E%3Cdiv%20class=%22out%22%3E%3C!--%E7%99%BB%E9%99%86--%3E%3Cdiv%20class=%22login%20box%22%3E%3Ch3%3E%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86%3C/h3%3E%3Cdiv%20class=%22frame%22%3E%3Cform%20action=%22/lnc/index.php/Main/login.html%22%20method=%22post%22%3E%3Cdiv%20class=%22one%22%3E%3Cul%3E%3Cli%3E%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%B7/%E9%82%AE%E7%AE%B1:%3C/li%3E%3Cli%3E%E5%AF%86%E7%A0%81:%3C/li%3E%3Cli%3E%E9%AA%8C%E8%AF%81%E7%A0%81:%3C/li%3E%3Cli%3E%3Cinput%20type=%22checkbox%22%20name=%22checkbox%22%20id=%22%22%20value=%22%22%20/%3E%3C/li%3E%3Cli%3E%3C/li%3E%3C/ul%3E%3C/div%3E%3Cdiv%20class=%22two%22%3E%3Cul%3E%3C!--%E7%94%A8%E6%88%B7%E5%90%8D%20%E9%82%AE%E7%AE%B1--%3E%3Cli%3E%3Cinput%20type=%22text%22%20name=%22user%22%20id=%22%22%20value=%22%22%20class=%22text%22/%3E%3C/li%3E%3C!--%E5%AF%86%E7%A0%81--%3E%3Cli%3E%3Cinput%20type=%22password%22%20name=%22pwd%22%20id=%22%22%20value=%22%22%20class=%22text%22/%3E%3C/li%3E%3C!--%E9%AA%8C%E8%AF%81%E7%A0%81--%3E%3Cli%20style=%22width:%20300px;%22%3E%3Cinput%20type=%22text%22%20name=%22code%22%20id=%22%22%20value=%22%22%20class=%22text%22%20style=%22float:%20left;width:%2075px;%22/%3E%3Cdiv%20id=%22yanzheng%22%3E%3Cimg%20class=%22verify%22%20src=%22/lnc/index.php/Main/verify.html%22%20alt=%22%E9%AA%8C%E8%AF%81%E7%A0%81%22%20onClick=%22this.src=this.src+'?%27+Math.random()%22;/%3E%3C/div%3E%3Ca%20href=%22
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:31:27+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//W3C//DTD%20HTML%203.2%20Final//EN%22%3E%3Chtml%3E%20%3Chead%3E%20%20%3Ctitle%3EIndex%20of%20/lnc/Public/upload%3C/title%3E%20%3C/head%3E%20%3Cbody%3E%3Ch1%3EIndex%20of%20/lnc/Public/upload%3C/h1%3E%20%20%3Ctable%3E%20%20%20%3Ctr%3E%3Cth%20valign=%22top%22%3E%3Cimg%20src=%22/icons/blank.gif%22%20alt=%22[ICO]%22%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=N;O=D%22%3EName%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=M;O=A%22%3ELast%20modified%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=S;O=A%22%3ESize%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=D;O=A%22%3EDescription%3C/a%3E%3C/th%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3Ctr%3E%3Ctd%20valign=%22top%22%3E%3Cimg%20src=%22/icons/back.gif%22%20alt=%22[PARENTDIR]%22%3E%3C/td%3E%3Ctd%3E%3Ca%20href=%22/lnc/Public/%22%3EParent%20Directory%3C/a%3E%20%20%20%20%20%20%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3Ctd%20align=%22right%22%3E%20%20-%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3C/table%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:32:20+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//W3C//DTD%20HTML%203.2%20Final//EN%22%3E%3Chtml%3E%20%3Chead%3E%20%20%3Ctitle%3EIndex%20of%20/lnc/Public/upload%3C/title%3E%20%3C/head%3E%20%3Cbody%3E%3Ch1%3EIndex%20of%20/lnc/Public/upload%3C/h1%3E%20%20%3Ctable%3E%20%20%20%3Ctr%3E%3Cth%20valign=%22top%22%3E%3Cimg%20src=%22/icons/blank.gif%22%20alt=%22[ICO]%22%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=N;O=D%22%3EName%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=M;O=A%22%3ELast%20modified%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=S;O=A%22%3ESize%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=D;O=A%22%3EDescription%3C/a%3E%3C/th%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3Ctr%3E%3Ctd%20valign=%22top%22%3E%3Cimg%20src=%22/icons/back.gif%22%20alt=%22[PARENTDIR]%22%3E%3C/td%3E%3Ctd%3E%3Ca%20href=%22/lnc/Public/%22%3EParent%20Directory%3C/a%3E%20%20%20%20%20%20%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3Ctd%20align=%22right%22%3E%20%20-%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3C/table%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:36:40+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//W3C//DTD%20HTML%203.2%20Final//EN%22%3E%3Chtml%3E%20%3Chead%3E%20%20%3Ctitle%3EIndex%20of%20/lnc/Public/upload%3C/title%3E%20%3C/head%3E%20%3Cbody%3E%3Ch1%3EIndex%20of%20/lnc/Public/upload%3C/h1%3E%20%20%3Ctable%3E%20%20%20%3Ctr%3E%3Cth%20valign=%22top%22%3E%3Cimg%20src=%22/icons/blank.gif%22%20alt=%22[ICO]%22%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=N;O=D%22%3EName%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=M;O=A%22%3ELast%20modified%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=S;O=A%22%3ESize%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=D;O=A%22%3EDescription%3C/a%3E%3C/th%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3Ctr%3E%3Ctd%20valign=%22top%22%3E%3Cimg%20src=%22/icons/back.gif%22%20alt=%22[PARENTDIR]%22%3E%3C/td%3E%3Ctd%3E%3Ca%20href=%22/lnc/Public/%22%3EParent%20Directory%3C/a%3E%20%20%20%20%20%20%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3Ctd%20align=%22right%22%3E%20%20-%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3C/table%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T18:39:11+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//W3C//DTD%20HTML%203.2%20Final//EN%22%3E%3Chtml%3E%20%3Chead%3E%20%20%3Ctitle%3EIndex%20of%20/lnc/Public/upload%3C/title%3E%20%3C/head%3E%20%3Cbody%3E%3Ch1%3EIndex%20of%20/lnc/Public/upload%3C/h1%3E%20%20%3Ctable%3E%20%20%20%3Ctr%3E%3Cth%20valign=%22top%22%3E%3Cimg%20src=%22/icons/blank.gif%22%20alt=%22[ICO]%22%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=N;O=D%22%3EName%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=M;O=A%22%3ELast%20modified%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=S;O=A%22%3ESize%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=D;O=A%22%3EDescription%3C/a%3E%3C/th%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3Ctr%3E%3Ctd%20valign=%22top%22%3E%3Cimg%20src=%22/icons/back.gif%22%20alt=%22[PARENTDIR]%22%3E%3C/td%3E%3Ctd%3E%3Ca%20href=%22/lnc/Public/%22%3EParent%20Directory%3C/a%3E%20%20%20%20%20%20%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3Ctd%20align=%22right%22%3E%20%20-%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3C/table%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: éæ³•æ“ä½œ:
+
+[ 2016-10-16T19:26:44+08:00 ] ::1 /lnc/www.baidu.com
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Www.baidu.com
+
+[ 2016-10-16T19:26:45+08:00 ] ::1 /lnc/www.baidu.com
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Www.baidu.com
+
+[ 2016-10-16T19:26:46+08:00 ] ::1 /lnc/www.baidu.com
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Www.baidu.com
+
+[ 2016-10-16T19:31:35+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:32:26+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:32:27+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:32:37+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:20+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:20+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:21+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:21+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:21+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:34:51+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:34:51+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:34:57+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:34:58+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+

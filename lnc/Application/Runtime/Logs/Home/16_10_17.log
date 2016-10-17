@@ -1,0 +1,2669 @@
+[ 2016-10-17T00:33:23+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-17T08:14:27+08:00 ] ::1 /lnc/Main.html
+ERR: 1054:Unknown column 'b_id' in 'IN/ALL/ANY subquery'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE ( b_id  IN ( select `b_id` from `lnc_board_attention` WHERE `u_id`=10045) ) AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T08:15:54+08:00 ] ::1 /lnc/Main.html
+ERR: 1054:Unknown column 'lnc_board.b_id' in 'IN/ALL/ANY subquery'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE ( lnc_board.b_id  IN ( select `b_id` from `lnc_board_attention` WHERE `u_id`=10045) ) AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T13:04:27+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'lnc_board.b_id' in 'IN/ALL/ANY subquery'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE ( lnc_board.b_id  IN ( select `b_id` from `lnc_board_attention` WHERE `u_id`=10045) ) AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T13:17:58+08:00 ] ::1 /lnc/
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-17T13:18:30+08:00 ] ::1 /lnc/
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-17T13:18:30+08:00 ] ::1 /lnc/
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-17T13:18:31+08:00 ] ::1 /lnc/
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-17T13:18:31+08:00 ] ::1 /lnc/
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-17T13:18:31+08:00 ] ::1 /lnc/
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-17T13:18:31+08:00 ] ::1 /lnc/
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-17T13:29:25+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN (Array,Array) 
+
+[ 2016-10-17T13:42:30+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN (Array,Array) 
+
+[ 2016-10-17T13:43:47+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN (Array,Array) 
+
+[ 2016-10-17T13:47:26+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN (Array,Array) 
+
+[ 2016-10-17T13:47:27+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN (Array,Array) 
+
+[ 2016-10-17T13:47:28+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN (Array,Array) 
+
+[ 2016-10-17T13:51:21+08:00 ] ::1 /lnc/
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `lnc_board` INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  WHERE `b_id` IN ('5','6') 
+
+[ 2016-10-17T13:51:36+08:00 ] ::1 /lnc/
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `lnc_board` INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  WHERE `b_id` IN ('5','6') 
+
+[ 2016-10-17T13:51:37+08:00 ] ::1 /lnc/
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `lnc_board` INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  WHERE `b_id` IN ('5','6') 
+
+[ 2016-10-17T13:51:37+08:00 ] ::1 /lnc/
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `lnc_board` INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  WHERE `b_id` IN ('5','6') 
+
+[ 2016-10-17T13:51:37+08:00 ] ::1 /lnc/
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `lnc_board` INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  WHERE `b_id` IN ('5','6') 
+
+[ 2016-10-17T14:39:47+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'b_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `u_id` = '10045' AND `b_id` = '6' AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T14:39:59+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'b_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `u_id` = '10045' AND `b_id` = '6' AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T14:45:45+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column '$map2' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_board_name` WHERE ( $map2 ) 
+
+[ 2016-10-17T14:45:46+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column '$map2' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_board_name` WHERE ( $map2 ) 
+
+[ 2016-10-17T14:46:00+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'b_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `b_id` = '6' AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T14:46:39+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'b_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `b_id` = '6' AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T14:47:03+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'b_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `b_id` = '6' AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T14:48:32+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'b_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `b_id` = '6' AND `t_state` = '2' ORDER BY lnc_tweets.t_date 
+
+[ 2016-10-17T15:06:41+08:00 ] ::1 /lnc/tuiwen.html
+ERR: 无法加载控制器:Tuiwen
+
+[ 2016-10-17T15:06:44+08:00 ] ::1 /lnc/tuiwen.html
+ERR: 无法加载控制器:Tuiwen
+
+[ 2016-10-17T15:12:48+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:14:32+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:01+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:03+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:22+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:57+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:57+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:58+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:58+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:58+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:59+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:59+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:59+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:59+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:15:59+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:00+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:00+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:00+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:00+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:26+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:27+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:27+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:27+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:16:29+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:39:50+08:00 ] ::1 /lnc/Main.html
+ERR: 1054:Unknown column 'lnc_board.b_id' in 'on clause'
+ [ SQL语句 ] : SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board.b_id`=`lnc_post.b_id` INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3  
+
+[ 2016-10-17T15:39:57+08:00 ] ::1 /lnc/Main.html
+ERR: 1054:Unknown column 'lnc_board.b_id' in 'on clause'
+ [ SQL语句 ] : SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board.b_id`=`lnc_post.b_id` INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3  
+
+[ 2016-10-17T15:41:02+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`nc_board`.b_id=`lnc_board_explain`.b_id  GROUP BY `lnc_board_name`.name,`lnc_bo' at line 1
+ [ SQL语句 ] : SELECT `lnc_board_name`.name,`lnc_board_explain`.b_explain,`lnc_board`.b_headicon,SUM(`lnc_post`.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board`.b_id=`lnc_post`.b_id INNER JOIN `lnc_board_name` on `lnc_board`.b_id=`lnc_board_name`.b_id INNER JOIN `lnc_board_explain` on l`nc_board`.b_id=`lnc_board_explain`.b_id  GROUP BY `lnc_board_name`.name,`lnc_board_explain`.b_explain LIMIT 3  
+
+[ 2016-10-17T15:41:02+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`nc_board`.b_id=`lnc_board_explain`.b_id  GROUP BY `lnc_board_name`.name,`lnc_bo' at line 1
+ [ SQL语句 ] : SELECT `lnc_board_name`.name,`lnc_board_explain`.b_explain,`lnc_board`.b_headicon,SUM(`lnc_post`.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board`.b_id=`lnc_post`.b_id INNER JOIN `lnc_board_name` on `lnc_board`.b_id=`lnc_board_name`.b_id INNER JOIN `lnc_board_explain` on l`nc_board`.b_id=`lnc_board_explain`.b_id  GROUP BY `lnc_board_name`.name,`lnc_board_explain`.b_explain LIMIT 3  
+
+[ 2016-10-17T15:41:02+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`nc_board`.b_id=`lnc_board_explain`.b_id  GROUP BY `lnc_board_name`.name,`lnc_bo' at line 1
+ [ SQL语句 ] : SELECT `lnc_board_name`.name,`lnc_board_explain`.b_explain,`lnc_board`.b_headicon,SUM(`lnc_post`.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board`.b_id=`lnc_post`.b_id INNER JOIN `lnc_board_name` on `lnc_board`.b_id=`lnc_board_name`.b_id INNER JOIN `lnc_board_explain` on l`nc_board`.b_id=`lnc_board_explain`.b_id  GROUP BY `lnc_board_name`.name,`lnc_board_explain`.b_explain LIMIT 3  
+
+[ 2016-10-17T15:46:26+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'l' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:26+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'ld' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:26+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'l' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'l' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:46:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'ld' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'ldh' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '刘德华' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:36+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:46:36+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:46:37+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:37+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:37+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:37+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131610' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:46:39+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:40+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161075' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:40+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131610755' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:40+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:41+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:41+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:54+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:55+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:46:59+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@o' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:46:59+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@ou' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:46:59+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@out' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:47:00+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outl' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:47:00+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outlo' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:47:00+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outloo' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:47:00+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outlook' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:47:00+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outlook' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:47:02+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outlook.' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:47:02+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outlook.c' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:47:02+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outlook.co' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:47:02+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@outlook.com' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1316107553@outlook.com&code=956642&u_email=1316107553%40outlook.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '41116312' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '4111631' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:27+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.co' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.co' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.c' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122.' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@q' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@qq' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@qq' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@qq.c' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@qq.co' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '411163122@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T15:49:28+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=411163122@qq.com&code=974726&u_email=411163122%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T15:49:29+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=411163122@qq.com&code=862128&u_email=411163122%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T15:53:28+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:54:29+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:54:39+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:54:40+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:30+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:35+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:36+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:37+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:37+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:37+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:37+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:37+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:38+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:38+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:38+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:38+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:38+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:39+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:39+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:39+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:39+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:39+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:55:42+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:10+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:11+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:13+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:15+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:16+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:18+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:18+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:34+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:35+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:35+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:35+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:35+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:35+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:56:48+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:22+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:32+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:49+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:50+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:50+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:50+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:50+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:51+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:52+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:54+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:57+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:58+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:58+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:58+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:58+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:58:59+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:09+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:09+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:09+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:09+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:10+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:10+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:10+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:10+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:10+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:11+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:11+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:25+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:26+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T15:59:57+08:00 ] ::1 /lnc/Main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:00:04+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:01+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:19+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:30+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:30+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:30+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:31+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:31+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:44+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:46+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:01:51+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:02:15+08:00 ] ::1 /lnc/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `lnc_board` WHERE `b_id` IN () 
+
+[ 2016-10-17T16:06:26+08:00 ] ::1 /lnc/Main.html
+ERR: syntax error, unexpected 'count' (T_STRING)
+
+[ 2016-10-17T16:06:36+08:00 ] ::1 /lnc/Main.html
+ERR: syntax error, unexpected 'count' (T_STRING)
+
+[ 2016-10-17T16:22:54+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:22:55+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1&code=729476&u_email=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:23:11+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1&code=687828&u_email=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:23:15+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '11' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:23:15+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:23:15+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=111&code=156231&u_email=111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:23:32+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:23:33+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1111&code=344558&u_email=1111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:24:17+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:24:18+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '12' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:24:18+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=12&code=759685
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:27:59+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:27:59+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '11' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:27:59+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=11&code=273896
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:29:17+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:29:17+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1&code=276135
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:29:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:29:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:29:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:29:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:29:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:29:22+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:29:22+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:29:25+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1316107553@qq.com&code=514768
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:30:09+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1316107553@qq.com&code=144745
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:32:13+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1316107553@qq.com&code=629728
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T16:32:17+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@qq.co' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:21+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1316107553@qq.co&code=312921
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-17T16:32:25+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:27+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1316107553&code=323623
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:32:30+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131610755' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:32:30+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161075' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:30+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:32:31+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131610' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:31+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:32:32+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161#' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:32+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:32:32+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:32:32+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:32:33+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@q' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:33+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@qq' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:32:33+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@qq.c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:34+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@qq.c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:34+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-17T16:32:34+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:37+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=13161@qq.com&code=959448
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:32:40+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161@qq.co' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-17T16:32:41+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=13161@qq.co&code=716359
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:32:59+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=13161@qq.co&code=359255
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:33:56+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=13161@qq.co&code=765725
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:34:03+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=1316107553@qq.com&code=834256
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T16:54:34+08:00 ] ::1 /lnc/Main.html
+ERR: 模板不存在:./Application/Home/View/layout.html
+
+[ 2016-10-17T16:59:55+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:06:14+08:00 ] ::1 /lnc/Tweets/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:User
+
+[ 2016-10-17T17:08:58+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:09:08+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.5481151066283556
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:09:09+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.5481151066283556?0.15924700912436207
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:10:23+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:13:10+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=&code=986861
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:20:12+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:20:12+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:20:12+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:21:08+08:00 ] ::1 /lnc/Home/Main/sendEmail?email=&code=164615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:21:19+08:00 ] ::1 /lnc/index.php/Main/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wamp64\www\lnc\Application\Common\Common\function.php 第 129 行.
+SQL: SELECT `u_id`,`u_name`,`u_email` FROM `lnc_user` WHERE ( u_email="1316107553@qq.com" and u_pwd="4de05feebcc4a24dc4198c113b897643" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:21:19+08:00 ] ::1 /lnc/Main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant boardAttention - assumed 'boardAttention' D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `u_id` = 10045 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `b_id` FROM `lnc_board_attention` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_board` WHERE `b_id` IN ('5','6')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:21:19+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T17:21:19+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:21:28+08:00 ] ::1 /lnc/Main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant boardAttention - assumed 'boardAttention' D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `u_id` = 10045 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `b_id` FROM `lnc_board_attention` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_board` WHERE `b_id` IN ('5','6')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0010s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:21:28+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:21:28+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T17:21:29+08:00 ] ::1 /lnc/Main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant boardAttention - assumed 'boardAttention' D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `u_id` = 10045 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `b_id` FROM `lnc_board_attention` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_board` WHERE `b_id` IN ('5','6')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0010s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:21:29+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:21:29+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:22:24+08:00 ] ::1 /lnc/Main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant boardAttention - assumed 'boardAttention' D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `u_id` = 10045 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `b_id` FROM `lnc_board_attention` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_board` WHERE `b_id` IN ('5','6')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0010s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:22:24+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:22:24+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:22:51+08:00 ] ::1 /lnc/Main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant boardAttention - assumed 'boardAttention' D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `u_id` = 10045 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `b_id` FROM `lnc_board_attention` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_board` WHERE `b_id` IN ('5','6')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0010s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:22:51+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:22:51+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T17:22:57+08:00 ] ::1 /lnc/Main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant boardAttention - assumed 'boardAttention' D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `u_id` = 10045 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `b_id` FROM `lnc_board_attention` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_board` WHERE `b_id` IN ('5','6')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0010s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:22:57+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:22:57+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-17T17:23:02+08:00 ] ::1 /lnc/index.php/Main/unLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:23:02+08:00 ] ::1 /lnc/Main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:23:02+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:23:02+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:23:52+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:23:52+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:23:52+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:23:57+08:00 ] ::1 /lnc/Tweets/tweetdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\64d38ffe708346d8493814a3cebbfe02.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:23:57+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:23:57+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:24:48+08:00 ] ::1 /lnc/Tweets/tweetdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\64d38ffe708346d8493814a3cebbfe02.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:24:48+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:24:48+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:24:50+08:00 ] ::1 /lnc/Tweets/tweetdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\64d38ffe708346d8493814a3cebbfe02.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:24:50+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:24:50+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:25:08+08:00 ] ::1 /lnc/Tweets/tweetdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\64d38ffe708346d8493814a3cebbfe02.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:25:08+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:25:08+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T17:25:32+08:00 ] ::1 /lnc/Tweets/tweetdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\64d38ffe708346d8493814a3cebbfe02.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:25:32+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:25:32+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:25:34+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-17T17:25:34+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:25:34+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:25:37+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T17:25:37+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:25:37+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-17T17:25:39+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:25:39+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:25:39+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:25:41+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:25:41+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:25:41+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:25:42+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:25:42+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:25:42+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:25:47+08:00 ] ::1 /lnc/Tweets/tweetdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\64d38ffe708346d8493814a3cebbfe02.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:25:47+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:25:47+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:26:08+08:00 ] ::1 /lnc/Tweets/tweetdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:26:09+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:26:09+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:27:30+08:00 ] ::1 /lnc/Tweets/tweetDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:27:31+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:27:31+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-17T17:41:35+08:00 ] ::1 /lnc/Tweets/tweetDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:41:35+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:41:35+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:verify
+
+[ 2016-10-17T17:42:01+08:00 ] ::1 /lnc/Tweets/tweetDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:01+08:00 ] ::1 /lnc/Tweets/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:04+08:00 ] ::1 /lnc/Tweets/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:13+08:00 ] ::1 /lnc/Tweets/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:13+08:00 ] ::1 /lnc/Tweets/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:13+08:00 ] ::1 /lnc/Tweets/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:21+08:00 ] ::1 /lnc/Tweets/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:42:25+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:42:25+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:25+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:37+08:00 ] ::1 /lnc/index.php/Main/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wamp64\www\lnc\Application\Common\Common\function.php 第 129 行.
+SQL: SELECT `u_id`,`u_name`,`u_email` FROM `lnc_user` WHERE ( u_email="1316107553@qq.com" and u_pwd="4de05feebcc4a24dc4198c113b897643" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-17T17:42:37+08:00 ] ::1 /lnc/Main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant boardAttention - assumed 'boardAttention' D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `u_id` = 10045 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board_attention` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_board` WHERE `b_id` IN ('5','6')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board_explain` [ RunTime:0.0000s ]
+SQL: SELECT `b_explain` FROM `lnc_board_explain` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_name` [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `lnc_board_name` WHERE `b_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 241 行.
+NOTIC: [8] Undefined index: b_explain D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:38+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-17T17:42:38+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

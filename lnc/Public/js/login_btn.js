@@ -49,7 +49,7 @@ $(document).ready(function(){
 				$('#email').keyup(function(){
 					var email=$('#email').val();
 					if(email) {
-						var url = "../User/verifyOnly";
+						var url = "./User/verifyOnly";
 						var data = {'verifier':'e','u_email': email};
 						var success = function (data) {
 							if (data.status === 1) {

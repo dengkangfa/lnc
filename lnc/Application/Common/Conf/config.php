@@ -17,7 +17,7 @@ return array(
     //默认的I函数过滤方式
     'DEFAULT_FILTER'=>'htmlspecialchars,trim',
     //开启trace调试工具
-    'SHOW_PAGE_TRACE'=>true,
+//    'SHOW_PAGE_TRACE'=>true,
     //开启路由
     'URL_ROUTER_ON'=>true,
     'URL_MAP_RULES'=>array(

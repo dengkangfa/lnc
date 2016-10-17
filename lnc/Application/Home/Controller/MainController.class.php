@@ -4,6 +4,7 @@
  */
 namespace Home\Controller;
 use Think\Controller;
+use Think\Model;
 
 class MainController extends Controller {
     /**
@@ -17,11 +18,9 @@ class MainController extends Controller {
         $user=unserialize(gzuncompress(base64_decode($cookie)));
         if(is_array($user) && count($user)){
             session('User',$user['u_name']);
-            $board=M('board');
-            $board->select();
         }
         //将用户名赋值过去视图，如其值不为空，则生成用户名信息模块，反之生成登录模块
-        $this->assign('User', $user['u_name']);
+        $this->assign('user', $user['u_name']);
         //获取版块模型句柄
         $plate=M('plate');
         $this->assign('plate',$plate->select());
@@ -40,6 +39,49 @@ class MainController extends Controller {
             ->Field('lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count')
             ->select();
         $this->assign('popularBoard',$popularBoard);
+
+        //我的贴吧/推荐贴吧数据
+        //根据用户是否登录和其是否关注贴吧判断，当他登录并且有关注的贴吧时，显示我的贴吧模块，
+        //反之如果没有登录或者登录了都没有关注的贴吧，则显示推荐贴吧。
+        $map['u_id']=$user['u_id'];
+        if($map['u_id'] !=''){
+            //通过当前登录对象的’u_id‘去筛选其关注的贴吧，通过判断结果集的条数，判断是否存在关注的贴吧
+            $boarAttention=M(boardAttention);
+            $attentionCount=$boarAttention->where($map)->count();
+        }else{
+            $attentionCount=0;
+        }
+        //当用户登录，并且存在关注的贴吧，则去获取其关注的贴吧数据，反之获取推荐
+        if(!empty(session('User')) && $attentionCount !=0 && $map['u_id'] !=''){
+            //获取关注的贴吧id
+            $result=$boarAttention->where($map)->field('b_id')->select();
+            unset($map);
+            foreach($result as $value){
+                $filter[]=$value['b_id'];
+            }
+            //获取关注的贴吧表数据
+            $map['b_id']=array('in',$filter);
+            $board=$board->where($map)->select();
+            unset($map);
+            //通过关联表获取需要贴吧的简介和贴吧名称
+            foreach($board as &$value){
+                $map['b_id']=$value['b_id'];
+                $model=new Model();
+                //获取简介
+                $explain=$model->table('lnc_board_explain')->where($map)->limit(1)->field('b_explain')->select();
+                $value['explain']=$explain[0]['b_explain'];
+                //获取贴吧名称
+                $name=$model->table('lnc_board_name')->where($map)->limit(1)->field('name')->select();
+                $value['name']=$name[0]['name'];
+            }
+            unset($map);
+            $this->assign('b_title','我的贴吧');
+            $this->assign('attention',$board);
+
+        }else{
+            unset($map);
+            $this->assign('b_title','推荐贴吧');
+        }
 
         //获取推文模型句柄
         $tweets=M('tweets');
@@ -83,15 +125,30 @@ class MainController extends Controller {
                 //验证$email格式是否符合要求
                 if (preg_match('/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/', $email)) {
                     session('code', $code);
-                    fn_send_mail($email, '岭南校园注册', $code);
+                    $result=fn_send_mail($email, '岭南校园注册', $code);
+                    if($result) {
+                        $data['status'] = 1;
+                        $data['content'] = '邮件已发';
+                        $this->ajaxReturn($data);
+                    }else{
+                        $data['status'] = 0;
+                        $data['content'] = '系统繁忙';
+                        $this->ajaxReturn($data);
+                    }
                 } else {
-                    $this->error('邮箱格式不正确');
+                    $data['status']=0;
+                    $data['content']='邮箱格式不合法';
+                    $this->ajaxReturn($data);
                 }
             }else{
-                $this->error('非法操作');
+                $data['status']=0;
+                $data['content']='非法操作';
+                $this->ajaxReturn($data);
             }
         }else{
-            $this->error('非法操作');
+            $data['status']=0;
+            $data['content']='非法操作';
+            $this->ajaxReturn($data);
         }
     }
 
@@ -116,12 +173,12 @@ class MainController extends Controller {
                 //验证用户输入的信息
                 if(!fn_is_length($data['code'],4)) $this->error('验证码必须四位');
                 if(!fn_check_verify($data['code'])) $this->error('验证码输入有误');
-                if(!fn_check_email($data['User']) || fn_check_name($data['User'])) $this->error('用户名的格式不正确');
+                if(!fn_check_email($data['user']) || fn_check_name($data['user'])) $this->error('用户名的格式不正确');
                 if(!fn_check_pwd($data['pwd'])) $this->error('密码的格式不正确');
                 //判断用户是使用何种方式登录
-                if(fn_check_email($data['User'])){
+                if(fn_check_email($data['user'])){
                     //查询用户是否存在
-                    $result=$user->where('u_email="'.$data['User'].'" and u_pwd="'.md5($data['pwd']).'"')->limit(1)->getField('u_id,u_name,u_email',1);
+                    $result=$user->where('u_email="'.$data['user'].'" and u_pwd="'.md5($data['pwd']).'"')->limit(1)->getField('u_id,u_name,u_email',1);
                     //判断查询结果
                     if(is_array($result) && count($result)>0){
                         foreach ($result as $value){
@@ -133,7 +190,7 @@ class MainController extends Controller {
                     }else{
                         $this->error('账号/密码错误');
                     }
-                }else if(fn_check_name($data['User'])){
+                }else if(fn_check_name($data['user'])){
                         echo 1;
                 }else{
                     $this->error('发生意想不到的错误！');
@@ -152,6 +209,7 @@ class MainController extends Controller {
      */
     public function unLogin(){
         cookie('User',null);
+        session('User',null);
         fn_jump('../Main');
     }
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <!--引入wangEditor.css-->
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/wangEditor-2.1.20/dist/css/wangEditor.min.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/dist/css/wangEditor.min.css">
     <title>Title</title>
 </head>
 <body>
@@ -15,20 +15,21 @@
 </div>
 </body>
 <script type="text/javascript" src="__PUBLIC__/js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/wangEditor-2.1.20/dist/js/wangEditor.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/dist/js/wangEditor.min.js"></script>
 <script type="text/javascript">
     var editor = new wangEditor('div1');
-    editor.config.uploadImgUrl = '/__PUBLIC__/upload';
-    // 配置自定义参数（举例）
-//    editor.config.uploadParams = {
-//        token: 'abcdefg',
-//        User: 'wangfupeng1988'
-//    };
 
-//    // 设置 headers（举例）
-//    editor.config.uploadHeaders = {
-//        'Accept' : 'text/x-json'
-//    };
+    editor.config.uploadImgUrl = "/lnc/Public/upload";
+    // 配置自定义参数（举例）
+    editor.config.uploadParams = {
+        token: 'abcdefg',
+        user: 'wangfupeng1988'
+    };
+
+    // 设置 headers（举例）
+    editor.config.uploadHeaders = {
+        'Accept' : 'text/x-json'
+    };
     editor.create();
 </script>
 </html>

@@ -18,18 +18,18 @@
 				<!--导航-->
 				<div class="tab">
 					<ul>
-						<li><a href="index.html">首页</a></li>
-						<li><a href="tuiwen.html">推文</a></li>
+						<li><a href="/lnc">首页</a></li>
+						<li><a href="/lnc/Tweets/index">推文</a></li>
 						<li id="tieba_btn">
 							贴吧
 							<div class="list">
 								<?php if(!empty($plate)): if(is_array($plate)): foreach($plate as $key=>$vo): ?><a href="tuiwen.html"><?php echo ($vo["p_name"]); ?></a><?php endforeach; endif; ?>
 								<?php else: ?>
-									没有如何数据<?php endif; ?>
+									没有任何数据<?php endif; ?>
 							</div>
 						</li>
 					</ul>
-					
+
 				</div>
 				<!--登陆按钮以及搜索框-->
 				<div class="btn_search">
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!--登陆窗口-->
 		<div id="login_register">
 			<!--登陆框与注册框-->
@@ -72,11 +72,11 @@
 										<li>
 											你的手机号/邮箱:
 										</li>
-	
+
 										<li>
 											密码:
 										</li>
-	
+
 										<li>
 											验证码:
 										</li>
@@ -96,7 +96,7 @@
 										<li>
 											<input type="password" name="pwd" id="" value="" class="text"/>
 										</li>
-										<!--验证码-->							
+										<!--验证码-->
 										<li style="width: 300px;">
 											<input type="text" name="code" id="" value="" class="text" style="float: left;width: 75px;"/>
 											<div id="yanzheng">
@@ -104,7 +104,7 @@
 											</div>
 											<a href="#">换一张</a>
 										</li>
-										<!--记住密码-->									
+										<!--记住密码-->
 										<li>
 											记住我
 											<a href="#" style="margin-left: 70px;">忘记密码?</a>
@@ -173,7 +173,7 @@
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
 			<!--二维码-->
 			<div class="right">
@@ -229,38 +229,21 @@
 
 				<!--我的贴吧-->
 				<div class="my_tieba">
-					<h3>我的贴吧</h3><br />
-					<!--贴吧1-->
-					<div class="info">
-						<!--贴吧头像-->
-						<img src="img/bj11.jpg" class="head"/>
-						<div class="content bsBox">
-							<!--贴吧名字-->
-							<a href="#" class="rgb">总院文娱部吧</a><br />
-							<!--贴吧简介-->
-							<span>撒阿斯顿哈asda萨苏废话风呼呼</span>
-						</div>
-					</div>
-					<!--贴吧2-->
-					<div class="info">
-						<img src="img/bj9.jpg" class="head"/>
-						<div class="content bsBox">
-							<!--贴吧名字-->
-							<a href="#" class="rgb">总院文娱部吧</a><br />
-							<!--贴吧简介-->
-							<span>撒阿斯顿哈asda萨苏废话风呼呼</span>
-						</div>
-					</div>
-					<!--贴吧3-->
-					<div class="info">
-						<img src="img/bj13.jpg" class="head"/>
-						<div class="content bsBox">
-							<!--贴吧名字-->
-							<a href="#" class="rgb">总院文娱部吧</a><br />
-							<!--贴吧简介-->
-							<span>撒阿斯顿哈asda萨苏废话风呼呼</span>
-						</div>
-					</div>
+					<h3><?php echo ($b_title); ?></h3><br />
+					<?php if(!empty($attention)): ?><!--贴吧1-->
+						<?php if(is_array($attention)): foreach($attention as $key=>$vo): ?><div class="info">
+								<!--贴吧头像-->
+								<img src="<?php echo ($vo["b_headicon"]); ?>" class="head"/>
+								<div class="content bsBox">
+									<!--贴吧名字-->
+									<a href="#" class="rgb"><?php echo ($vo["name"]); ?></a><br />
+									<!--贴吧简介-->
+									<span><?php echo ($vo["b_explain"]); ?></span>
+								</div>
+							</div><?php endforeach; endif; ?>
+					<?php else: ?>
+						没有数据<?php endif; ?>
+
 				</div>
 			</div>
 							
@@ -292,160 +275,6 @@
 					</a><?php endforeach; endif; ?>
                     <?php else: ?>
                         没有任何数据<?php endif; ?>
-
-					<a href="#">
-						<div class="box bsBox">
-							<div class="title">
-								<span class="top">清远校区英雄联盟比赛</span><br />
-								<div>
-									<div class="time">2016-09-18</div>
-									<div class="author">王大锤</div>
-								</div>								
-							</div>
-							<div class="info">
-								<div class="img"><img src="img/bj8.jpg"/></div>
-								<div class="content">
-									10月10日励能大厅举行表演赛欢迎阿斯顿阿三啊回啊是啊ufhiafaisssssssssssssssssssssssssssssss
-								</div>
-								<!--阅读数量-->
-								<span style="color: silver">阅读数量</span>
-								<span style="color: red;">2520</span>
-								<span style="float: right;">阅读全文></span>
-							</div>
-						</div>
-					</a>
-					
-					<a href="#">
-						<div class="box bsBox">
-							<div class="title">
-								<span class="top">清远校区英雄联盟比赛</span><br />
-								<div>
-									<div class="time">2016-09-18</div>
-									<div class="author">王大锤</div>
-								</div>								
-							</div>
-							<div class="info">
-								<div class="img"><img src="img/bj8.jpg"/></div>
-								<div class="content">
-									10月10日励能大厅举行表演赛欢迎阿斯顿阿三啊回啊是啊ufhiafaisssssssssssssssssssssssssssssss
-								</div>
-								<!--阅读数量-->
-								<span style="color: silver">阅读数量</span>
-								<span style="color: red;">2520</span>
-								<span style="float: right;">阅读全文></span>
-							</div>
-						</div>
-					</a>
-					
-					<a href="#">
-						<div class="box bsBox">
-							<div class="title">
-								<span class="top">清远校区英雄联盟比赛</span><br />
-								<div>
-									<div class="time">2016-09-18</div>
-									<div class="author">王大锤</div>
-								</div>								
-							</div>
-							<div class="info">
-								<div class="img"><img src="img/bj8.jpg"/></div>
-								<div class="content">
-									10月10日励能大厅举行表演赛欢迎阿斯顿阿三啊回啊是啊ufhiafaisssssssssssssssssssssssssssssss
-								</div>
-								<!--阅读数量-->
-								<span style="color: silver">阅读数量</span>
-								<span style="color: red;">2520</span>
-								<span style="float: right;">阅读全文></span>
-							</div>
-						</div>
-					</a>
-					
-					<a href="#">
-						<div class="box bsBox">
-							<div class="title">
-								<span class="top">清远校区英雄联盟比赛</span><br />
-								<div>
-									<div class="time">2016-09-18</div>
-									<div class="author">王大锤</div>
-								</div>								
-							</div>
-							<div class="info">
-								<div class="img"><img src="img/bj8.jpg"/></div>
-								<div class="content">
-									10月10日励能大厅举行表演赛欢迎阿斯顿阿三啊回啊是啊ufhiafaisssssssssssssssssssssssssssssss
-								</div>
-								<!--阅读数量-->
-								<span style="color: silver">阅读数量</span>
-								<span style="color: red;">2520</span>
-								<span style="float: right;">阅读全文></span>
-							</div>
-						</div>
-					</a>
-					
-					<a href="#">
-						<div class="box bsBox">
-							<div class="title">
-								<span class="top">清远校区英雄联盟比赛</span><br />
-								<div>
-									<div class="time">2016-09-18</div>
-									<div class="author">王大锤</div>
-								</div>								
-							</div>
-							<div class="info">
-								<div class="img"><img src="img/bj8.jpg"/></div>
-								<div class="content">
-									10月10日励能大厅举行表演赛欢迎阿斯顿阿三啊回啊是啊ufhiafaisssssssssssssssssssssssssssssss
-								</div>
-								<!--阅读数量-->
-								<span style="color: silver">阅读数量</span>
-								<span style="color: red;">2520</span>
-								<span style="float: right;">阅读全文></span>
-							</div>
-						</div>
-					</a>
-					
-					<a href="#">
-						<div class="box bsBox">
-							<div class="title">
-								<span class="top">清远校区英雄联盟比赛</span><br />
-								<div>
-									<div class="time">2016-09-18</div>
-									<div class="author">王大锤</div>
-								</div>								
-							</div>
-							<div class="info">
-								<div class="img"><img src="img/bj8.jpg"/></div>
-								<div class="content">
-									10月10日励能大厅举行表演赛欢迎阿斯顿阿三啊回啊是啊ufhiafaisssssssssssssssssssssssssssssss
-								</div>
-								<!--阅读数量-->
-								<span style="color: silver">阅读数量</span>
-								<span style="color: red;">2520</span>
-								<span style="float: right;">阅读全文></span>
-							</div>
-						</div>
-					</a>
-					
-					<a href="#">
-						<div class="box bsBox">
-							<div class="title">
-								<span class="top">清远校区英雄联盟比赛</span><br />
-								<div>
-									<div class="time">2016-09-18</div>
-									<div class="author">王大锤</div>
-								</div>								
-							</div>
-							<div class="info">
-								<div class="img"><img src="img/bj8.jpg"/></div>
-								<div class="content">
-									10月10日励能大厅举行表演赛欢迎阿斯顿阿三啊回啊是啊ufhiafaisssssssssssssssssssssssssssssss
-								</div>
-								<!--阅读数量-->
-								<span style="color: silver">阅读数量</span>
-								<span style="color: red;">2520</span>
-								<span style="float: right;">阅读全文></span>
-							</div>
-						</div>
-					</a>
 				</div>
 				<script src="/lnc/Public/js/noMargin.js" type="text/javascript" charset="utf-8"></script>
 			</div>
