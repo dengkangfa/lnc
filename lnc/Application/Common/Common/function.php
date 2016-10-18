@@ -55,7 +55,7 @@ function fn_create_code($length){
  * @return bool
  * author Fox
  */
-function fn_send_mail($address,$title,$content){
+function fn_send_email($address,$title,$content){
     Vendor('PHPMailer.class#phpmailer');
     $mail = new PHPMailer(); //实例化
     $mail->IsSMTP();
@@ -125,8 +125,7 @@ function fn_check_email($data){
  * author Fox
  */
 function fn_check_name($data){
-//    if(preg_match('/^[\x4e00-\x9fa5_a-zA-Z0-9]{2,10}$/g',$data))
-    if(preg_match('/^[\\u4e00-\\u9fa5_a-zA-Z0-9-]{1,16}$/',$data))
+    if(preg_match('[\u4e00-\u9fa5_a-zA-Z0-9_]{2,10}',$data))
         return true;
     return false;
 }

@@ -30,7 +30,7 @@ function getCode($length) {
 function sendMail(){
 		var email=$('#email').val();
 		$.ajax({
-			url:'/lnc/Home/Main/sendEmail?email='+email+'&code='+getCode(6),
+			url:'/lnc/Home/User/sendEmail?email='+email+'&code='+getCode(6),
 			type:"GET",
 			// data:$('#email').serialize(),
 			success: function(data) {

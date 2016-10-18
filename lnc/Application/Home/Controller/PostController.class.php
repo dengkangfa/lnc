@@ -6,9 +6,9 @@
 namespace Home\Controller;
 
 
-use Think\Controller;
+use Home\Common\Controller\CommonController;
 
-class PostController extends Controller{
+class PostController extends CommonController {
     public function index(){
 //        $data['p_date']=time();
 //        $data['p_state']=1;

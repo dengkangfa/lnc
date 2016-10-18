@@ -1,8 +1,8 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>岭南校园</title>
+    <meta charset="UTF-8">
+    <title>111</title>
     <link rel="stylesheet" type="text/css" href="/lnc/Public/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="/lnc/Public/css/all.css"/>
     <script src="/lnc/Public/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
@@ -245,20 +245,21 @@
     <!--            下面的评论-->
     <div class="twfoot">
         <!--               评论-->
-        <div class="pinglun">
-            <div id="div1">
-                <p>请输入内容...</p>
-            </div>
+        <link rel="stylesheet" type="text/css" href="/lnc/Public/dist/css/wangEditor.min.css">
+<div class="pinglun">
+    <div id="div1">
+        <p>请输入内容...</p>
+    </div>
 
-            <script type="text/javascript" src="/lnc/Public/dist/js/lib/jquery-1.10.2.min.js"></script>
-            <script type="text/javascript" src="/lnc/Public/dist/js/wangEditor.min.js"></script>
-            <script type="text/javascript">
-                $(function () {
-                    var editor = new wangEditor('div1');
-                    editor.create();
-                });
-            </script>
-        </div>
+    <script type="text/javascript" src="/lnc/Public/dist/js/lib/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/lnc/Public/dist/js/wangEditor.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var editor = new wangEditor('div1');
+            editor.create();
+        });
+    </script>
+</div>
         <!--                留言-->
         <div class="liuyan">
             <div class="ly">
@@ -298,9 +299,15 @@
             </div>
         </div>
     </div>
+
+<!--页尾-->
+<div id="bottom">
+
+</div>
 </body>
 <script src="/lnc/Public/js/login_btn.js" type="text/javascript" charset="utf-8"></script>
 <script src="/lnc/Public/js/tieba_btn.js" type="text/javascript" charset="utf-8"></script>
 <script src="/lnc/Public/js/To.js" type="text/javascript" charset="utf-8"></script>
 <script src="/lnc/Public/js/slider.js" type="text/javascript" charset="utf-8"></script>
+</html>
 </html>

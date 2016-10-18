@@ -6,9 +6,10 @@
 namespace Home\Controller;
 
 
-use Think\Controller;
+use Home\Common\Controller\CommonController;
+use Home\Event\EmailEvent;
 
-class UserController extends Controller{
+class UserController extends CommonController{
     public function verifyOnly(){
         $user=M('User');
         if(IS_POST) {
@@ -49,5 +50,14 @@ class UserController extends Controller{
     public function registered(){
         echo 1;
         $this->display();
+    }
+
+    /**
+     * 生成随机验证码，并将生成的验证码存放进seesion，还发送至用户邮箱
+     * author Fox
+     */
+    public function sendEmail(){
+        $email=new EmailEvent();
+        $email->sendEmail();
     }
 }
