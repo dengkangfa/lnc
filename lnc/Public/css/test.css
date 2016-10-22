@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+ul,li{
+    list-style: none;
+}
+
+/*--------顶部封面--------*/
+.h_cover{
+    width: 100%;
+    min-width: 1100px;
+    height: 180px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background: rgb(142,22,20);
+}
+
+/*--------中间内容--------*/
+.m_block{
+    width: 66%;
+    min-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: -75px;
+}
+    /*--------贴吧信息--------*/
+ .m_block_info{
+    width: 100%;
+    display: block;
+    border-bottom:2px solid rgb(142,22,20);
+    margin-bottom: 25px;
+}
+/*--------贴吧头像--------*/
+.m_info_icon{
+    width: 150px;
+    height: 150px;
+}
+/*--------贴吧信息--------*/
+.m_info_other{
+    position: relative;
+    height: 40px;
+    top: -40px;
+    left:170px;
+    width: 80%;
+}
+.m_info_other .m_info_name{
+    float: left;
+}
+/*--------关注按钮--------*/
+.m_info_other .m_info_atn{
+    width: 70px;
+    height: 30px;
+    line-height: 28px;
+    margin-left: 15px;
+    float: left;
+}
+/*--------其它信息--------*/
+.m_info_other .m_info_fans{
+    margin-left: 15px;
+    float: left;
+    height: 100%;
+    line-height: 40px;
+}
+/*--------贴吧签名--------*/
+.m_info_signature{
+    width: 80%;
+    position: relative;
+    top: -20px;
+    left:150px;
+}
+/*--------帖子内容--------*/
+.m_post{
+    width: 98%;
+    position: relative;
+    left: 1%;
+}
+/*--------帖子标题--------*/
+.m_post .m_post_title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/*--------帖子评论--------*/
+.m_post .m_post_comment{
+    border: 1px lightgray solid;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    min-height: 250px;
+}
+/*--------评论左块--------*/
+.m_post .m_post_comment .m_post_comment_left{
+    float: left;
+    width: 18%;
+    background: rgb(245,246,247);
+    padding-top: 20px;
+    height: 100%;
+    position: absolute;
+}
+/*--------用户头像--------*/
+.m_comment_headicon{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+/*--------用户名字--------*/
+.m_comment_username{
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+}
+/*--------评论右块--------*/
+.m_post .m_post_comment .m_post_comment_right{
+    height: 100%;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+}
+/*--------主体内容--------*/
+.m_comment_content{
+    width: 100%;
+    margin-bottom: 10px;
+}
+/*--------评论信息--------*/
+.m_post_info{
+    height: 25px;
+    font-size: 12px;
+    color: gray;
+    text-align: right;
+    width: 78%;
+    position: absolute;
+    bottom: 5px;
+}
+/*---------页码------------*/
+.page{
+    position: relative;
+    width: 98.2%;
+    left: 1%;
+    height: 50px;
+    line-height: 50px;
+}
+
+/*-----发表评论------*/
+.comment{
+	width: 98.2%;
+    left: 1%;
+    position: relative;
+}
+/*-----wangEditor-----*/
+.comment .wangEditor{
+	 width: 100%;
+	 height: 350px;
+	 margin-top: 20px;
+	 background-color: white;
+}
+/*-----提交按钮-----*/
+.comment .m_submit_atn{
+    width: 7%;
+    height: 32px;
+    line-height: 30px;
+    position: relative;
+    left: 93%;
+    margin-top: 15px;
+}
+.submit a{
+	color: white;
+}
+/*--------样式--------*/
+    /*--------头像--------*/
+    .img_headicon{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    /*--------关注按钮--------*/
+    .button_atn{
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: center;
+        background: rgb(142,22,20);
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+    .button_atn:hover{
+        transform: scale(1.05,1.05);
+    }
+    /*--------提交按钮--------*/
+    .submit_atn{
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: center;
+        background: rgb(40, 178, 214);
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+    .submit_atn:hover{
+        background: rgb(36, 167, 200);
+    }
+    /*--------页码样式--------*/
+    .page_style li{
+        float: right;
+        height: 100%;
+        margin-left: 4px;
+        margin-right: 4px;
+        color: #7B7B7B;
+    }
+    .page_style li a{
+        color: rgb(100,100,100);
+    }
+

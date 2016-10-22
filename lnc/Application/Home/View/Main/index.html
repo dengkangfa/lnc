@@ -1,5 +1,6 @@
 <extend name="Public/base"/>
 <block name="main">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/main.css"/>
 		<!--主要内容-->
 		<div id="main">
 							
@@ -38,7 +39,7 @@
 								<a href="/lnc/Board/personal/id/{$vo.b_id}" ><img src="{$vo.b_headicon}" class="head"/></a>
 								<div class="content bsBox">
 									<!--贴吧名字-->
-									<a href="/lnc/Board/personal/id/{$vo.b_id}" class="rgb">{$vo.name}</a><br />
+									<a href="/lnc/Board/personal/id/{$vo.b_id}" class="rgb">{$vo.b_name}</a><br />
 									<!--贴吧简介-->
 									<span title="{$vo.b_explain}">{$vo.b_explain}</span>
 								</div>
@@ -62,7 +63,7 @@
 								<a href="/lnc/Board/personal/id/{$vo.b_id}"><img src="{$vo.b_headicon}" class="head"/></a>
 								<div class="content bsBox">
 									<!--贴吧名字-->
-									<a href="/lnc/Board/personal/id/{$vo.b_id}" class="rgb">{$vo.name}</a><br />
+									<a href="/lnc/Board/personal/id/{$vo.b_id}" class="rgb">{$vo.b_name}</a><br />
 									<!--贴吧简介-->
 									<span>{$vo.b_explain}</span>
 								</div>
@@ -82,7 +83,7 @@
 				<div class="content">
                     <notempty name="tweets">
                         <foreach name="tweets" item="vo">
-					<a href="#">
+					<a href="Tweets/tweetDetails/id/{$vo.t_id}">
 						<div class="box bsBox">
 							<div class="title">
 								<span class="top">{$vo.title}</span><br />

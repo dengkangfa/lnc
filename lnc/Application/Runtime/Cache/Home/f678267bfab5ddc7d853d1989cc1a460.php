@@ -23,7 +23,7 @@
                 <li id="tieba_btn">
                     贴吧
                     <div class="list">
-                        <?php if(!empty($plate)): if(is_array($plate)): foreach($plate as $key=>$vo): ?><a href="tuiwen.html"><?php echo ($vo["p_name"]); ?></a><?php endforeach; endif; ?>
+                        <?php if(!empty($plate)): if(is_array($plate)): foreach($plate as $key=>$vo): ?><a href="/lnc/Board/plate/id/<?php echo ($vo["p_id"]); ?>"><?php echo ($vo["p_name"]); ?></a><?php endforeach; endif; ?>
                             <?php else: ?>
                             没有任何数据<?php endif; ?>
                     </div>
@@ -183,7 +183,49 @@
 </div>
 
 
-
+    <link rel="stylesheet" type="text/css" href="/lnc/Public/css/tweets.css"/>
+    <!--主要内容-->
+    <div id="main">
+        <!--最新推文-->
+        <div id="hot_tuiwen" class="bsBox">
+            <h2>推文主页</h2>
+            <div class="content">
+                <?php if(!empty($tweets)): if(is_array($tweets)): foreach($tweets as $key=>$vo): ?><a href="/lnc/Tweets/tweetdetails/id/<?php echo ($vo["t_id"]); ?>" >
+                        <div class="box bsBox">
+                            <div class="title">
+                                <span class="top"><?php echo ($vo["title"]); ?></span><br />
+                                <div>
+                                    <div class="time"><?php echo ($vo["t_date"]); ?></div>
+                                    <div class="author"><?php echo ($vo["author"]); ?></div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="img"><img src="<?php echo ($vo["t_cover"]); ?>"/></div>
+                                <div class="content">
+                                    <?php echo ($vo["content"]); ?>
+                                </div>
+                                <!--阅读数量-->
+                                <span style="color: silver">阅读数量</span>
+                                <span style="color: red;"><?php echo ($vo["t_read"]); ?></span>
+                                <span style="float: right;">阅读全文></span>
+                            </div>
+                        </div>
+                    </a><?php endforeach; endif; ?>
+                <?php else: ?>
+                没有任何数据<?php endif; ?>
+            </div>
+            <div class="chose">
+                <!--<ul>-->
+                    <?php echo ($page); ?>
+                    <!--<li><a href="#">上一页</a></li>-->
+                    <!--<li><a href="#">1</a></li>-->
+                    <!--<li><a href="#">2</a></li>-->
+                    <!--<li><a href="#">3</a></li>-->
+                    <!--<li><a href="#">下一页</a></li>-->
+                <!--</ul>-->
+            </div>
+            <script src="/lnc/Public/js/noMargin.js" type="text/javascript" charset="utf-8"></script>
+        </div>
 
 <!--页尾-->
 <div id="bottom">

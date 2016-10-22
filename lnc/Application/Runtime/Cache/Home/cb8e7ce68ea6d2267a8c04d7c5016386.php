@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>我的地盘贴吧</title>
     <link rel="stylesheet" type="text/css" href="/lnc/Public/css/personal_bar.css" />
+    <script src="/lnc/Public/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <!-------------------------头部---------------------->
@@ -18,11 +19,13 @@
                 </div>
                 <div class="personal-top bsBox">
                     <div class="name">
-                        <b style="font-size: 25px;"><?php echo ($vo["name"]); ?></b>
+                        <b style="font-size: 25px;"><?php echo ($vo["b_name"]); ?></b>
                     </div>
                     <!------------+关注按钮-->
                     <div class="translated">
-                        <a href="#">+关注</a>
+                        <input id="b_id" type="hidden" value="<?php echo ($id); ?>"/>
+                        <a href="#" id="attentionStatus" ><?php echo ($attentionStatus); ?></a>
+                        <!--<input id="attentionStatus" type="button" value="<?php echo ($attentionStatus); ?>"/>-->
                     </div>
                     <!--关注人数，帖子数量总div-->
                     <div class="translated-num">
@@ -50,7 +53,7 @@
             </div><?php endforeach; endif; endif; ?>
 
 </div>
-<!-------------------------中间部分------------------->
+
 <div id="body-p">
     <!--大的面积部分-->
     <?php if(!empty($post)): if(is_array($post)): foreach($post as $key=>$vo): ?><div class="tall bsBox">
@@ -70,7 +73,10 @@
                 </div>
             </div><?php endforeach; endif; endif; ?>
 </div>
+
 <!-------------------------尾部----------------------->
 <div id="lass-p"></div>
+
 </body>
+<script src="/lnc/Public/js/board.js" type="text/javascript" CHARSET="UTF-8"></script>
 </html>

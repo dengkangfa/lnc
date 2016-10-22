@@ -1,15 +1,60 @@
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/dist/css/wangEditor.min.css">
-<div class="pinglun">
-    <div id="div1">
+<div class="pinglun" style="height: 40%;width: 100%;">
+    <input type="hidden" id="type" value="{$type}">
+    <input type="hidden" id="id" value="{$id}">
+    <div id="edit" style="height:250px">
         <p>请输入内容...</p>
     </div>
+    <p  id="p"><input id="publishBtn" type="button" value="发表"/></p>
 
     <script type="text/javascript" src="__PUBLIC__/dist/js/lib/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="__PUBLIC__/dist/js/wangEditor.min.js"></script>
     <script type="text/javascript">
         $(function () {
-            var editor = new wangEditor('div1');
+            var editor = new wangEditor('edit');
+            editor.config.menuFixed = false;
+            editor.config.uploadImgUrl = "{:U(upload)}";
+            editor.config.hideLinkImg = true;
+            editor.config.uploadImgFileName = 'picFile';
+            editor.config.menus = [
+                'bold',
+                'underline',
+                'italic',
+                'strikethrough',
+                'eraser',
+                'forecolor',
+                'bgcolor',
+                'quote',
+                'fontsize',
+                'head',
+                'unorderlist',
+                'orderlist',
+                'alignleft',
+                'aligncenter',
+                'alignright',
+                'img',
+                'video',
+                'fullscreen'
+            ];
             editor.create();
+//            alert(createXMLHttpRequest().);
+
+            $('#publishBtn').click(function () {
+                // 获取编辑器区域完整html代码
+                var html = editor.$txt.html();
+                var id=$('#id').val();
+                var type=$('#type').val();
+                var url = "{:U('postComment');}";
+                var data = {'comment':html,'id':id,'type':type};
+                var success = function (data) {
+                    if(data.status==0){
+                        alert(data.content);
+                    }
+                }
+                $.post(url, data, success);
+            });
+
         });
+
     </script>
 </div>

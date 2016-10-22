@@ -47,11 +47,6 @@ class UserController extends CommonController{
 
     }
 
-    public function registered(){
-        echo 1;
-        $this->display();
-    }
-
     /**
      * 生成随机验证码，并将生成的验证码存放进seesion，还发送至用户邮箱
      * author Fox

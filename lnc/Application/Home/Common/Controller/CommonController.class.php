@@ -14,6 +14,7 @@ class CommonController extends Controller{
         $user=unserialize(gzuncompress(base64_decode($cookie)));
         if(is_array($user) && count($user)){
             session('User',$user['u_name']);
+            session('u_id',$user['u_id']);
         }
         //将用户名赋值过去视图，如其值不为空，则生成用户名信息模块，反之生成登录模块
         $this->assign('user', $user['u_name']);
@@ -54,28 +55,29 @@ class CommonController extends Controller{
                 //验证用户输入的信息
                 if(!fn_is_length($data['code'],4)) $this->error('验证码必须四位');
                 if(!fn_check_verify($data['code'])){  $this->error('验证码输入有误');};
-                if(!fn_check_email($data['user']) || fn_check_name($data['user'])) $this->error('用户名的格式不正确');
+                if(!fn_check_email($data['user']) && !fn_check_name($data['user'])) $this->error('用户名的格式不正确');
                 if(!fn_check_pwd($data['pwd'])) $this->error('密码的格式不正确');
                 //判断用户是使用何种方式登录
                 if(fn_check_email($data['user'])){
-                    //查询用户是否存在
+                    //通过email查询用户是否存在
                     $result=$user->where('u_email="'.$data['user'].'" and u_pwd="'.md5($data['pwd']).'"')->limit(1)->getField('u_id,u_name,u_email',1);
-                    //判断查询结果
-                    if(is_array($result) && count($result)>0){
-                        foreach ($result as $value){
-                            //将用户信息序列号压缩并加密
-                            cookie('User',base64_encode(gzcompress(serialize($value))));
-                        }
-                        //重新加载页面
-                        fn_jump('../Main');
-                    }else{
-                        $this->error('账号/密码错误');
-                    }
+
                 }else if(fn_check_name($data['user'])){
-                    echo 1;
-                }else{
-                    $this->error('发生意想不到的错误！');
+                    //通过用户名查询用户是否存在
+                    $result=$user->where('u_name="'.$data['user'].'" and u_pwd="'.md5($data['pwd']).'"')->limit(1)->getField('u_id,u_name,u_email',1);
                 }
+                //判断查询结果
+                if(is_array($result) && count($result)>0){
+                    foreach ($result as $value){
+                        //将用户信息序列号压缩并加密
+                        cookie('User',base64_encode(gzcompress(serialize($value))));
+                    }
+                    //重新加载页面
+                    fn_jump();
+                }else{
+                    $this->error('账号/密码错误');
+                }
+
             }else{
                 $this->error('非法操作');
             }
@@ -91,7 +93,8 @@ class CommonController extends Controller{
     public function unLogin(){
         cookie('User',null);
         session('User',null);
-        fn_jump('index');
+        session('u_id',null);
+        fn_jump();
     }
 
     /**
@@ -110,7 +113,7 @@ class CommonController extends Controller{
                     //默认新注册的用户，账号信息保持一天
                     cookie('User',base64_encode(gzcompress(serialize($data))),86400);
                     //跳转回index操作
-                    fn_jump('index');
+                    fn_jump();
                 }else{
                     $this->error("数据写入失败");
                 }

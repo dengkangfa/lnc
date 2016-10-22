@@ -26,9 +26,9 @@ class MainController extends CommonController{
         $popularBoard=$board->join('lnc_post on lnc_board.b_id=lnc_post.b_id')
                         ->join('lnc_board_name on lnc_board.b_id=lnc_board_name.b_id')
                     ->join('lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id')
-                ->group('lnc_board_name.name,lnc_board_explain.b_explain')
+                ->group('lnc_board_name.b_name,lnc_board_explain.b_explain')
             ->limit(3)
-            ->Field('lnc_board.b_id,lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count')
+            ->Field('lnc_board.b_id,lnc_board_name.b_name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count')
             ->select();
         $this->assign('popularBoard',$popularBoard);
 
@@ -61,10 +61,10 @@ class MainController extends CommonController{
                 $model=new Model();
                 //获取简介
                 $explain=$model->table('lnc_board_explain')->where($map)->limit(1)->field('b_explain')->select();
-                $value['explain']=$explain[0]['b_explain'];
+                $value['b_explain']=$explain[0]['b_explain'];
                 //获取贴吧名称
-                $name=$model->table('lnc_board_name')->where($map)->limit(1)->field('name')->select();
-                $value['name']=$name[0]['name'];
+                $name=$model->table('lnc_board_name')->where($map)->limit(1)->field('b_name')->select();
+                $value['b_name']=$name[0]['b_name'];
             }
             unset($map);
             $this->assign('b_title','我的贴吧');
@@ -82,94 +82,17 @@ class MainController extends CommonController{
         $data=$tweets->where($map)->join('lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id')
                     ->join('lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id')
                 ->join('lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id')
-            ->order('lnc_tweets.t_date')
+            ->order('lnc_tweets.t_read desc,lnc_tweets.t_date desc')
+            ->limit(8)
             ->select();
         //将每条数据的时间戳转换成日期格式
         foreach ($data as &$value){
-            $value['t_date']=date("Y-m-d",$data['t_date']);
+            $value['t_date']=date("Y-m-d",$value['t_date']);
         }
         $this->assign('tweets',$data);
         //渲染视图
         $this->display();
     }
 
-    /**
-     * 生成验证码
-     * author Fox
-     */
-    public function verify(){
-        parent::verify();
-    }
 
-    /**
-     * 生成随机验证码，并将生成的验证码存放进seesion，还发送至用户邮箱
-     * author Fox
-     */
-    public function sendEmail(){
-        $emailEvent=new EmailEvent();
-        $emailEvent->sendEmail();
-        exit();
-        //判断是否恶意访问
-        if(IS_GET){
-            //获取get所有数据
-            $data=I('get.');
-            $email=$data['email'];
-            $code=$data['code'];
-            if($email && $code) {
-                //验证$email格式是否符合要求
-                if (preg_match('/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/', $email)) {
-                    session('code', $code);
-                    $result=fn_send_mail($email, '岭南校园注册', $code);
-                    if($result) {
-                        $data['status'] = 1;
-                        $data['content'] = '邮件已发';
-                        $this->ajaxReturn($data);
-                    }else{
-                        $data['status'] = 0;
-                        $data['content'] = '系统繁忙';
-                        $this->ajaxReturn($data);
-                    }
-                } else {
-                    $data['status']=0;
-                    $data['content']='邮箱格式不合法';
-                    $this->ajaxReturn($data);
-                }
-            }else{
-                $data['status']=0;
-                $data['content']='非法操作';
-                $this->ajaxReturn($data);
-            }
-        }else{
-            $data['status']=0;
-            $data['content']='非法操作';
-            $this->ajaxReturn($data);
-        }
-    }
-
-    /**
-     * 登录操作
-     * author Fox
-     */
-    public function login(){
-        parent::login();
-    }
-
-    /**
-     * 注销操作
-     * author Fox
-     */
-    public function unLogin(){
-        parent::unLogin();
-//        cookie('User',null);
-//        session('User',null);
-//        fn_jump('');
-    }
-
-    /**
-     * 注册操作
-     * author Fox
-     */
-    public function registered(){
-        parent::registered();
-    }
 }

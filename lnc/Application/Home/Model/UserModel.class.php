@@ -12,11 +12,10 @@ class UserModel extends Model {
      * 字段自动验证，对表处理时，如果该字段存在时，uname(用户名)不得为空，并且不得与存在的用户名冲突，upass(密码)不得为空，并且介于六位到十六位，
      * uemail(邮箱)邮箱不得为空并至今没有被其他用户注册过，userpermission(权限),权限系数只能是1(普通用户)或者2(贴吧管理员)
      * urstdate(注册时间)只有在插入数据时才进行验证。
-     * 当update时
      */
     protected $_validate=array(
         array('u_name','require','用户名不能为空！'),
-//        array('u_name','/^[\u4e00-\u9fa5]{0,}$/','用户名格式不正确',self::MUST_VALIDATE,'regex',self::MODEL_BOTH),
+        array('u_name','/^[\x{4e00}-\x{9fa5}A-Za-z0-9_]{2,10}$/u','用户名格式不正确',self::MUST_VALIDATE,'regex',self::MODEL_BOTH),
         array('u_name','','用户名已存在',self::EXISTS_VALIDATE,'unique',self::MODEL_BOTH),
         array('u_pwd','require','密码不得为空'),
         array('u_pwd','6,12','密码不得小于6位，不得大于12位','','length'),

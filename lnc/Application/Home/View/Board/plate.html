@@ -1,0 +1,37 @@
+<extend name="Public:base"/>
+<block name="main">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/plate.css"/>
+<!--		中间贴吧分栏-->
+            <div class="tb_middle">
+                <notempty name="plate_board">
+                    <foreach name="plate_board" item="vo">
+                        <a href="/lnc/Board/personal/id/{$vo.b_id}">
+                        <div class="tb">
+                            <div class="tb_touxiang">
+                                <img src="{$vo.b_headicon}">
+                            </div>
+                            <div class="tb_biaoti">
+                                <span class="hot"></span>
+                                <span>{$vo.b_name}</span>
+                            </div>
+                            <div class="tb_fangwen">
+                                <span class="fw_rs"></span>
+                                <p>{$vo.u_count}</p>
+                                <span class="fw_cs"></span>
+                                <p>{$vo.p_count}</p>
+                            </div>
+                            <div class="tb_xianqing">
+                                <p>后台自己绑数据吗</p>
+                            </div>
+                        </div>
+                        </a>
+                    </foreach>
+                    <else/>
+                    该版块下没有任何数据
+                </notempty>
+            </div>
+		<!--页尾-->
+		<div id="bottom">
+			
+		</div>
+</block>

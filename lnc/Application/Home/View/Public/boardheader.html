@@ -1,0 +1,56 @@
+<!-------------------------头部---------------------->
+<div class="head-p">
+    <!--图片背景-->
+    <notempty name="board">
+        <foreach name="board" item="vo">
+            <img class="photo" src="{$vo.b_cover}"/>
+            <!--吧主层-->
+
+            <div class="personal">
+                <div class="img-div">
+                    <img class="img" src="{$vo.b_headicon}"/>
+                </div>
+                <div class="personal-top bsBox">
+                    <div class="name">
+                        <b style="font-size: 25px;">{$vo.b_name}</b>
+                    </div>
+                    <!------------+关注按钮-->
+                    <div class="translated">
+                        <input id="b_id" type="hidden" value="{$id}"/>
+                        <a href="#" id="attentionStatus" >{$attentionStatus}</a>
+                        <!--<input id="attentionStatus" type="button" value="{$attentionStatus}"/>-->
+                    </div>
+                    <!--关注人数，帖子数量总div-->
+                    <div class="translated-num">
+                        <notempty name="attention_count">
+                            <span>关注：</span>
+                            <span>{$attention_count[0]['attention_count']}</span>
+                            <else />
+                            <span>关注：</span>
+                            <span>0</span>
+                        </notempty>
+                        <notempty name="post_count">
+                            <span>帖子：</span>
+                            <span>{$post_count[0]['post_count']}</span>
+                            <else />
+                            <span>帖子：</span>
+                            <span>0</span>
+                        </notempty>
+                    </div>
+                </div>
+                <!--标签语言-->
+                <!--word-->
+                <div class="word">
+                    <p class="cont">
+                        <notempty name="post_count">
+                            {$vo.b_explain}
+                            <else />
+                            这个吧主很懒,什么也没留下...
+                        </notempty>
+                    </p>
+                </div>
+            </div>
+        </foreach>
+    </notempty>
+
+</div>

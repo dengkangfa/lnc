@@ -1,0 +1,89 @@
+/*中间贴吧分栏*/
+.tb_middle{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.tb{
+    width: 400px;
+    height: 170px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 10px #F0F0F0;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.tb:hover{
+    box-shadow: 3px 3px 10px #cccccc;
+}
+.tb_touxiang img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left:10px;
+    margin-top: 10px;
+    float: left;
+}
+.hot{
+    display:block;
+    width: 40px;
+    height: 19px;
+    background: url(../img/day_rcmd_7b0fbcf.png) -140px 0px;
+    float: left;
+}
+.tb_biaoti{
+    width: 140px;
+    float: left;
+    margin-left:10px;
+    margin-top: 20px;
+}
+.tb_biaoti span{
+    color: blue;
+    font-size: 16px;
+}
+.tb_fangwen{
+    width: 140px;
+    height: 25px;
+    float: left;
+    margin-left:10px;
+    margin-top: 20px;
+}
+.fw_rs{
+    display:block;
+    width: 20px;
+    height: 19px;
+    background: url(../img/day_rcmd_7b0fbcf.png) 0px 0px;
+    float: left;
+}
+.fw_cs{
+    display:block;
+    width: 20px;
+    height: 19px;
+    margin-left:20px;
+    background: url(../img/day_rcmd_7b0fbcf.png) 0px -33px;
+    float: left;
+}
+.tb_fangwen p{
+    color: gray;
+    font-size: 14px;
+    float: left;
+}
+.tb_xianqing{
+    width: 400px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    right: -400px;
+    background-color: black;
+    filter:alpha(opacity:30);
+    opacity:0.3;
+    -moz-opacity:0.3;
+    -khtml-opacity: 0.3
+
+}
+.tb:hover .tb_xianqing{
+    right: 0px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}

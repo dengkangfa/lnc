@@ -19,6 +19,8 @@ define('APP_DEBUG',True);
 //define('__APP__', '');
 // 定义应用目录
 define('APP_PATH','./Application/');
+define('TMP_IMAGE_PATH','Public/uploads/tmp/');
+define('IMAGE_PATH','Public/uploads/img/');
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';

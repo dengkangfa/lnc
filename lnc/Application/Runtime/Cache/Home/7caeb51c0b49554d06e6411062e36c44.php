@@ -23,7 +23,7 @@
                 <li id="tieba_btn">
                     贴吧
                     <div class="list">
-                        <?php if(!empty($plate)): if(is_array($plate)): foreach($plate as $key=>$vo): ?><a href="tuiwen.html"><?php echo ($vo["p_name"]); ?></a><?php endforeach; endif; ?>
+                        <?php if(!empty($plate)): if(is_array($plate)): foreach($plate as $key=>$vo): ?><a href="/lnc/Board/plate/id/<?php echo ($vo["p_id"]); ?>"><?php echo ($vo["p_name"]); ?></a><?php endforeach; endif; ?>
                             <?php else: ?>
                             没有任何数据<?php endif; ?>
                     </div>
@@ -183,6 +183,7 @@
 </div>
 
 
+	<link rel="stylesheet" type="text/css" href="/lnc/Public/css/main.css"/>
 		<!--主要内容-->
 		<div id="main">
 							
@@ -217,7 +218,7 @@
 								<a href="/lnc/Board/personal/id/<?php echo ($vo["b_id"]); ?>" ><img src="<?php echo ($vo["b_headicon"]); ?>" class="head"/></a>
 								<div class="content bsBox">
 									<!--贴吧名字-->
-									<a href="/lnc/Board/personal/id/<?php echo ($vo["b_id"]); ?>" class="rgb"><?php echo ($vo["name"]); ?></a><br />
+									<a href="/lnc/Board/personal/id/<?php echo ($vo["b_id"]); ?>" class="rgb"><?php echo ($vo["b_name"]); ?></a><br />
 									<!--贴吧简介-->
 									<span title="<?php echo ($vo["b_explain"]); ?>"><?php echo ($vo["b_explain"]); ?></span>
 								</div>
@@ -237,7 +238,7 @@
 								<a href="/lnc/Board/personal/id/<?php echo ($vo["b_id"]); ?>"><img src="<?php echo ($vo["b_headicon"]); ?>" class="head"/></a>
 								<div class="content bsBox">
 									<!--贴吧名字-->
-									<a href="/lnc/Board/personal/id/<?php echo ($vo["b_id"]); ?>" class="rgb"><?php echo ($vo["name"]); ?></a><br />
+									<a href="/lnc/Board/personal/id/<?php echo ($vo["b_id"]); ?>" class="rgb"><?php echo ($vo["b_name"]); ?></a><br />
 									<!--贴吧简介-->
 									<span><?php echo ($vo["b_explain"]); ?></span>
 								</div>
@@ -253,7 +254,7 @@
 				<h3>热门推文</h3>
 
 				<div class="content">
-                    <?php if(!empty($tweets)): if(is_array($tweets)): foreach($tweets as $key=>$vo): ?><a href="#">
+                    <?php if(!empty($tweets)): if(is_array($tweets)): foreach($tweets as $key=>$vo): ?><a href="Tweets/tweetDetails/id/<?php echo ($vo["t_id"]); ?>">
 						<div class="box bsBox">
 							<div class="title">
 								<span class="top"><?php echo ($vo["title"]); ?></span><br />

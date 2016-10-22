@@ -1,6 +1,9 @@
 <?php
 return array(
 	//'配置项'=>'配置值'
+    'SHOW_PAGE_TRACE' =>true,
+    'TMPL_L_DELIM'=>'{',
+    'TMPL_R_DELIM'=>'}',
     'DB_TYPE'=>'mysql',
     'DB_USER'=>'root',
     'DB_PWD'=>'a7750825',
@@ -17,12 +20,12 @@ return array(
     //默认的I函数过滤方式
     'DEFAULT_FILTER'=>'htmlspecialchars,trim',
     //开启trace调试工具
-//    'SHOW_PAGE_TRACE'=>true,
     //开启路由
     'URL_ROUTER_ON'=>true,
     'URL_MAP_RULES'=>array(
         'main/User/verifyOnly'=>'User/verifyOnly',
     ),
+
 
 
 );

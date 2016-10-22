@@ -7,6 +7,10 @@ namespace Home\Event;
 use Think\Controller;
 
 class EmailEvent extends Controller{
+    /**
+     * 发送邮件
+     * author Fox
+     */
     public function sendEmail(){
         //判断是否恶意访问
         if(IS_GET){
