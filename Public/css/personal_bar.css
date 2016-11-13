@@ -1,0 +1,246 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+ul,li{
+	list-style: none;
+}
+
+/*颜色·*/
+.rgb{
+	color: rgb(142,22,20);
+}
+/*按钮*/
+.button{
+	width: 50px;
+  	height: 25px;
+	border: none;
+	outline: none;
+}
+.button:active{
+	background: red;
+}
+/**/
+.bsBox{
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+
+/*-------------------------头部---------------------------*/
+.head-p{
+	width: 100%;
+	min-width: 800px;
+	height: 300px;
+	/*background-color: #000000;*/
+
+}
+/*----图片位置-------*/
+.head-p .photo{
+	width: 100%;
+	height: 180px;
+	min-width: 1200px;
+	background: rgb(142,22,20);
+}
+/*--------------吧主div------*/
+.personal{
+	width: 1100px;
+	margin: 0 auto;
+	height: 120px;
+	/*background-color: aliceblue;*/
+	position:relative;
+	/*border-style: solid;*/
+	/*--------------设置一条红色线--------*/
+	border-bottom-style: solid;
+	border-color: rgb(142,22,20);
+	border-width: 2px;
+}
+/*----设置设置吧主图片大小--------*/
+.head-p .img{
+	 width: 150px;
+	 height: 150px;
+	 border-radius:50%;
+}
+
+
+.personal .img-div{
+     position: absolute;
+     top: -75px;
+}
+
+
+/*班级，关注，人数关注数量的div*/
+.personal .personal-top{
+	width: 950px;
+	height: 60px;
+	float: right;
+	/*background-color: yellow;*/
+}
+.personal .personal-top .name{
+	width: 200px;
+	height: 30px;
+	float: left;
+	/*background-color: red;*/
+}
+/*加入关注按钮设置*/
+.personal .translated a{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	border:0px;
+	float: left;
+	font-size: 17px;
+	font-weight:bolder;
+    color: white;
+    text-align: center;
+    background-color: rgb(142,22,20);
+}
+.personal .translated a:hover{
+	transform: scale(1.1);
+}
+/*显示关注人数，贴吧数*/
+.personal .translated-num{
+	width: 150px;
+	height: 20px;
+	float: left;
+	/*background-color: blue;*/
+	text-align: center;
+	color: black;
+	margin: 10px 0 0 10px;
+}
+.head-p .personal .word{
+	width: 300px;
+	height: 30px;
+	float: left;
+	margin-left: 150px;
+	/*background-color: blue;*/
+}
+.personal .cont{
+	overflow: hidden;/*内容超出后隐藏*/
+	white-space: nowrap;
+	text-overflow: ellipsis;/* 超出内容显示为省略号*/
+	/*white-space: nowrap;文本不进行换行*/
+}
+
+
+
+
+
+/*-----------------------中间部分----------------------*/
+#body-p{
+	width: 1100px;
+	min-width: 800px;
+    margin: 0 auto;
+    /*background-color: salmon;*/
+}
+/*-----每一个大贴吧框------------------------------*/
+#body-p .tall
+{
+	width: 1100px;
+	float: left;
+	/*蓝色---------------------------------------------*/
+
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	background: #F0F0F0;
+}
+/*------标题和发表人------*/
+#body-p .title{
+	width: 1100px;
+	height: 50px;
+    margin-top: 10px;
+    float: left;
+    /*橙色--------------------------------------------*/
+	/*background-color: antiquewhite;*/
+}
+/*------------标题------------*/
+.title-word{
+	width: 600px;
+	height: 30px;
+	font-size: 20px;
+	float: left;
+	margin:5px 0 0 20px;
+	overflow: hidden;/*内容超出后隐藏*/
+	white-space: nowrap;
+	text-overflow: ellipsis;/* 超出内容显示为省略号*/
+
+}
+.tall .title-word a{
+	color: blue;
+}
+.tall .title-word a:hover{
+	color: red;
+}
+/*---------发表人-------*/
+.people{
+	width: 150px;
+	height: 20px;
+	float: right;
+	margin: 3px 10px 0 0;
+	overflow: hidden;/*内容超出后隐藏*/
+	white-space: nowrap;
+	text-overflow: ellipsis;/* 超出内容显示为省略号*/
+
+}
+/*-----发表时间---------*/
+.time{
+	width: 120px;
+	height: 20px;
+	clear: both;
+	margin-left: 960px;
+	/*background-color: red;*/
+}
+/*-----多行文本溢出显示省略号---------------*/
+.tall .content{
+	width: 900px;
+	margin:10px 100px 0 0;
+	float: right;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;/*设置第几行后超出就出现省略号*/
+	-webkit-box-orient: vertical;
+}
+.tall .oppe{
+	width: 300px;
+	height: 1000px;
+	float: right;
+}
+/*-----------------------------框里面的a标签颜色----------*/
+.tall a{
+	color: black;
+}
+#box{
+	padding:10px;
+	border:1px solid green;
+}
+/*------小的贴吧框-------------------------------*/
+#body-p .tall-b{
+	width: 1100px;
+	height: 80px;
+	float: left;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+/*------------------------尾部-----------------------*/
+#lass-p{
+	width: 100%;
+	min-width: 800px;
+	height: 100px;
+	clear: both;
+	background-color: rgb(142,22,20);
+}

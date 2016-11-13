@@ -1,0 +1,1726 @@
+[ 2016-11-02T22:08:29+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0130s ]
+SQL: SELECT lnc_board.b_id,lnc_board_name.b_name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0900s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_read desc,lnc_tweets.t_date desc LIMIT 8   [ RunTime:0.0480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:08:29+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:08:39+08:00 ] ::1 /lnc/BoardManage/index/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:08:39+08:00 ] ::1 /lnc/index.php/Home/BoardManage/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:08:39+08:00 ] ::1 /lnc/index.php/Home/BoardManage/left/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:08:39+08:00 ] ::1 /lnc/index.php/Home/BoardManage/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:08:41+08:00 ] ::1 /lnc/index.php/Home/BoardManage/publish_tuiwen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:08:50+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-11-02T22:16:32+08:00 ] ::1 /lnc/BoardManage/index/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:16:32+08:00 ] ::1 /lnc/index.php/Home/BoardManage/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:16:32+08:00 ] ::1 /lnc/index.php/Home/BoardManage/left/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:16:32+08:00 ] ::1 /lnc/index.php/Home/BoardManage/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-02T22:16:34+08:00 ] ::1 /lnc/index.php/Home/BoardManage/publish_tuiwen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:16:45+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-11-02T22:19:06+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board.b_id,lnc_board_name.b_name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_read desc,lnc_tweets.t_date desc LIMIT 8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T22:19:06+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:19:08+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-02T22:19:08+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-02T22:24:30+08:00 ] ::1 /lnc/index.php/Tweets/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:24:38+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.8822435264826978
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:24:39+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.8822435264826978?0.12792083510622754
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T22:24:42+08:00 ] ::1 /lnc/index.php/Tweets/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:24:44+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:24:49+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.4093063703772293
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:24:50+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.4093063703772293?0.3975198259497761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-02T22:24:51+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.4093063703772293?0.3975198259497761?0.19262917993751016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:24:53+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.4093063703772293?0.3975198259497761?0.19262917993751016?0.8430516797998691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:24:55+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.4093063703772293?0.3975198259497761?0.19262917993751016?0.8430516797998691?0.20121688403575333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:24:56+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.4093063703772293?0.3975198259497761?0.19262917993751016?0.8430516797998691?0.20121688403575333?0.37755846684053185
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:24:57+08:00 ] ::1 /lnc/index.php/Tweets/verify.html?0.4093063703772293?0.3975198259497761?0.19262917993751016?0.8430516797998691?0.20121688403575333?0.37755846684053185?0.976340611858429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:01+08:00 ] ::1 /lnc/index.php/Tweets/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SELECT `u_id`,`u_name`,`u_email` FROM `lnc_user` WHERE ( u_email="1316107553@qq.com" and u_pwd="4de05feebcc4a24dc4198c113b897643" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: checkbox D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:25:01+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:25:01+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:04+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:04+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T22:25:05+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:25:05+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:05+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T22:25:05+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:05+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:05+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:06+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:10+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:25:11+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:26:49+08:00 ] ::1 /lnc/Tweets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_author` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_title` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE tweets.t_state = '2' ORDER BY tweets.t_date desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\f678267bfab5ddc7d853d1989cc1a460.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:26:49+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:26:50+08:00 ] ::1 /lnc/index.php/Tweets/unLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+
+[ 2016-11-02T22:30:01+08:00 ] ::1 /lnc/BoardManage/index/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:30:01+08:00 ] ::1 /lnc/index.php/Home/BoardManage/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:30:01+08:00 ] ::1 /lnc/index.php/Home/BoardManage/left/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T22:30:01+08:00 ] ::1 /lnc/index.php/Home/BoardManage/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-02T22:30:03+08:00 ] ::1 /lnc/index.php/Home/BoardManage/publish_tuiwen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T22:30:17+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-11-02T23:48:02+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board.b_id,lnc_board_name.b_name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_read desc,lnc_tweets.t_date desc LIMIT 8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-02T23:48:02+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:48:11+08:00 ] ::1 /lnc/BoardManage/index/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:48:11+08:00 ] ::1 /lnc/index.php/Home/BoardManage/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:48:11+08:00 ] ::1 /lnc/index.php/Home/BoardManage/left/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:48:11+08:00 ] ::1 /lnc/index.php/Home/BoardManage/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:48:12+08:00 ] ::1 /lnc/index.php/Home/BoardManage/publish_tuiwen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:48:25+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: Class 'Home\Controller\D' not found
+
+[ 2016-11-02T23:49:02+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+ERR: Call to undefined function Home\Controller\create()
+
+[ 2016-11-02T23:49:38+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\BoardManageController.class.php 第 267 行.
+
+[ 2016-11-02T23:53:13+08:00 ] ::1 /lnc/BoardManage/index/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:53:13+08:00 ] ::1 /lnc/index.php/Home/BoardManage/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:53:13+08:00 ] ::1 /lnc/index.php/Home/BoardManage/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-02T23:53:13+08:00 ] ::1 /lnc/index.php/Home/BoardManage/left/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:53:15+08:00 ] ::1 /lnc/index.php/Home/BoardManage/publish_tuiwen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:53:33+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : INSERT INTO `lnc_tweets` (`title`,`synopsis`,`content`,`t_cover`,`u_id`,`author`,`t_date`) VALUES ('6455454','446484894464','<p>9</p><p>48gffufgu</p>','/img/2016-11-02/1478102013581a0bfd4e9e1.jpg',NULL,NULL,'1478102013')
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : INSERT INTO `lnc_tweets` (`title`,`synopsis`,`content`,`t_cover`,`u_id`,`author`,`t_date`) VALUES ('6455454','446484894464','<p>9</p><p>48gffufgu</p>','/img/2016-11-02/1478102013581a0bfd4e9e1.jpg',NULL,NULL,'1478102013')
+
+[ 2016-11-02T23:56:05+08:00 ] ::1 /lnc/BoardManage/index/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:56:05+08:00 ] ::1 /lnc/index.php/Home/BoardManage/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:56:05+08:00 ] ::1 /lnc/index.php/Home/BoardManage/left/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T23:56:05+08:00 ] ::1 /lnc/index.php/Home/BoardManage/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-02T23:56:08+08:00 ] ::1 /lnc/index.php/Home/BoardManage/publish_tuiwen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T23:56:29+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : INSERT INTO `lnc_tweets` (`title`,`synopsis`,`content`,`t_cover`,`u_id`,`author`,`t_date`) VALUES ('我好列','的说法是发生地方萨芬的','<p>啥打法是否是发的是否</p>','/img/2016-11-02/1478102189581a0cad8d61b.jpg',NULL,NULL,'1478102189')
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : INSERT INTO `lnc_tweets` (`title`,`synopsis`,`content`,`t_cover`,`u_id`,`author`,`t_date`) VALUES ('我好列','的说法是发生地方萨芬的','<p>啥打法是否是发的是否</p>','/img/2016-11-02/1478102189581a0cad8d61b.jpg',NULL,NULL,'1478102189')
+
+[ 2016-11-02T23:59:05+08:00 ] ::1 /lnc/BoardManage/publshTweets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : INSERT INTO `lnc_tweets` (`title`,`synopsis`,`content`,`t_cover`,`u_id`,`author`,`t_date`) VALUES ('的神烦大叔','是的范德萨','<p>士大夫士大夫撒</p>','/img/2016-11-02/1478102345581a0d492da77.jpg',NULL,NULL,'1478102345')
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : INSERT INTO `lnc_tweets` (`title`,`synopsis`,`content`,`t_cover`,`u_id`,`author`,`t_date`) VALUES ('的神烦大叔','是的范德萨','<p>士大夫士大夫撒</p>','/img/2016-11-02/1478102345581a0d492da77.jpg',NULL,NULL,'1478102345')
+
+[ 2016-11-02T23:59:50+08:00 ] ::1 /lnc/BoardManage/index/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:59:50+08:00 ] ::1 /lnc/index.php/Home/BoardManage/left/id/10045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_board` WHERE `u_id` = 10045  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:59:50+08:00 ] ::1 /lnc/index.php/Home/BoardManage/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-11-02T23:59:50+08:00 ] ::1 /lnc/index.php/Home/BoardManage/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T23:59:52+08:00 ] ::1 /lnc/index.php/Home/BoardManage/publish_tuiwen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+

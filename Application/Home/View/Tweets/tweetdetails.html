@@ -1,0 +1,52 @@
+<extend name="Public:base"/>
+<block name="main">
+    <!--<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/tuiwenindex.css" />-->
+    <link rel="stylesheet" href="__PUBLIC__/css/tweets.css"/>
+    <!--主要内容-->
+    <div id="main">
+        <notempty name="tweets">
+            <foreach name="tweets" item="vo">
+                <div class="twtop">
+                    <div class="biaoti">
+                        <h1>{$vo.title}</h1>
+                    </div>
+                    <div class="shijian">
+                        <p>{$vo.t_date|date='Y-m-d',###}</p>
+                    </div>
+                    <div class="zuozhe">
+                        <span>作者：</span>
+                        <span>{$vo.author}</span>
+                    </div>
+                </div>
+                <div class="twmiddle">
+                    <p>{$vo.content}</p>
+                </div>
+            </foreach>
+            <else />
+            没有任何数据
+        </notempty>
+
+        <!--            下面的评论-->
+        <div class="twfoot">
+            <!--               评论-->
+            <include file="Public/edit"/>
+            <p  id="p"><input id="publishBtn" type="button" value="发表"/></p>
+            <!--                留言-->
+            <div class="liuyan">
+                <notempty name="comment">
+                    <foreach name="comment" item="vo">
+                        <div class="ly">
+                            <div class="yk">
+                                <img src="{$vo.u_headicon}">
+                                <p class="commentUserName">{$vo.u_name}</p>
+                                <p class="lytime">{$vo.date|date='Y-m-d',###}</p>
+                            </div>
+                            <p>{$vo.comment}</p>
+                        </div>
+                    </foreach>
+                </notempty>
+            </div>
+        </div>
+        </div>
+    <script type="text/javascript" src="__PUBLIC__/js/tweetsWangEditor.js"></script>
+</block>

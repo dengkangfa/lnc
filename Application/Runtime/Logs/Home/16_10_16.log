@@ -1,0 +1,2830 @@
+[ 2016-10-16T00:04:26+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT lnc_board_name.name,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id  GROUP BY lnc_board_name.name LIMIT 3   [ RunTime:0.0020s ]
+
+[ 2016-10-16T00:05:14+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id  GROUP BY lnc_board_name.name LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-10-16T00:05:22+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id  GROUP BY lnc_board_name.name LIMIT 3   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2'  [ RunTime:0.0510s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\5f5878b563bbd0551b6c84d71156b7e9.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T00:05:22+08:00 ] ::1 /lnc/index.php/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T00:05:22+08:00 ] ::1 /lnc/img/bj11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T00:05:22+08:00 ] ::1 /lnc/img/bj13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T00:05:22+08:00 ] ::1 /lnc/img/749413009632672666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T00:05:22+08:00 ] ::1 /lnc/img/bj8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T00:05:22+08:00 ] ::1 /lnc/img/bj12.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T00:05:22+08:00 ] ::1 /lnc/img/bj9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T00:11:58+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:14:05+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:14:06+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:14:06+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:14:06+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:14:06+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:14:07+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:20:15+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: cw
+
+[ 2016-10-16T00:22:30+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:23:10+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:23:11+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:23:11+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\IndexController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:33+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:34+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:34+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:35+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:35+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:37+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:39+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:56+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:57+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:57+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:25:57+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:26:18+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:26:19+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:26:20+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:26:20+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:27:21+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_explain.explain' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name LIMIT 3  
+
+[ 2016-10-16T00:30:08+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_name.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board.b_id LIMIT 3  
+
+[ 2016-10-16T00:30:09+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_name.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board.b_id LIMIT 3  
+
+[ 2016-10-16T00:30:10+08:00 ] ::1 /lnc/
+ERR: 1055:Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_board_name.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board.b_id LIMIT 3  
+
+[ 2016-10-16T01:49:49+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'lnc_board_name.name' in 'field list'
+ [ SQLËØ≠Âè• ] : SELECT `lnc_board_name.name`,`lnc_board_explain.explain`,`lnc_board.b_headicon`,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board`.b_id=`lnc_post.b_id` INNER JOIN `lnc_board_name` on `lnc_board.b_id`=`lnc_board_name.b_id` INNER JOIN `lnc_board_explain` on `lnc_board.b_id`=`lnc_board_explain.b_id`  GROUP BY `lnc_board_name.name`,`lnc_board_explain.explain` LIMIT 3  
+
+[ 2016-10-16T01:50:53+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'lnc_board_name.name' in 'field list'
+ [ SQLËØ≠Âè• ] : SELECT `lnc_board_name.name`,`lnc_board_explain.explain`,`lnc_board.b_headicon`,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board`.b_id=`lnc_post.b_id` INNER JOIN `lnc_board_name` on `lnc_board.b_id`=`lnc_board_name.b_id` INNER JOIN `lnc_board_explain` on `lnc_board.b_id`=`lnc_board_explain.b_id`  GROUP BY `lnc_board_name.name`,`lnc_board_explain.explain` LIMIT 3  
+
+[ 2016-10-16T01:51:04+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'lnc_post.b_id' in 'on clause'
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board`.b_id=`lnc_post.b_id` INNER JOIN `lnc_board_name` on `lnc_board.b_id`=`lnc_board_name.b_id` INNER JOIN `lnc_board_explain` on `lnc_board.b_id`=`lnc_board_explain.b_id`  GROUP BY `lnc_board_name.name`,`lnc_board_explain.explain` LIMIT 3  
+
+[ 2016-10-16T01:51:18+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'lnc_post.b_id' in 'on clause'
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN `lnc_post` on `lnc_board`.b_id=`lnc_post.b_id` INNER JOIN `lnc_board_name` on `lnc_board.b_id`=`lnc_board_name.b_id` INNER JOIN `lnc_board_explain` on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.explain LIMIT 3  
+
+[ 2016-10-16T01:54:40+08:00 ] ::1 /lnc/
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-16T08:06:33+08:00 ] ::1 /lnc/
+ERR: XMLÊ†áÁ≠æËØ≠Ê≥ïÈîôËØØ : i
+
+[ 2016-10-16T08:28:26+08:00 ] ::1 /lnc/
+ERR: 1054:Unknown column 'lnc_board_explain.explain' in 'group statement'
+ [ SQLËØ≠Âè• ] : SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.explain LIMIT 3  
+
+[ 2016-10-16T11:48:51+08:00 ] ::1 /lnc/U('User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('User
+
+[ 2016-10-16T11:48:54+08:00 ] ::1 /lnc/U('User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('User
+
+[ 2016-10-16T11:48:58+08:00 ] ::1 /lnc/U('User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('User
+
+[ 2016-10-16T11:49:48+08:00 ] ::1 /lnc/U('User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('User
+
+[ 2016-10-16T11:50:30+08:00 ] ::1 /lnc/U('./User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:50:31+08:00 ] ::1 /lnc/U('./User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:50:45+08:00 ] ::1 /lnc/U('./User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:50:49+08:00 ] ::1 /lnc/U('./User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:50:59+08:00 ] ::1 /lnc/U('./User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:51:04+08:00 ] ::1 /lnc/U('./User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:52:58+08:00 ] ::1 /lnc/U('./User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:52:59+08:00 ] ::1 /lnc/U('./User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:54:14+08:00 ] ::1 /lnc/user
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Index
+
+[ 2016-10-16T11:54:43+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:55:01+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:55:08+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:55:08+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:55:09+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:55:21+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:56:05+08:00 ] ::1 /lnc//lnc/Public/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Lnc
+
+[ 2016-10-16T11:56:05+08:00 ] ::1 /lnc//lnc/Public/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Lnc
+
+[ 2016-10-16T11:56:25+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:56:34+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:56:36+08:00 ] ::1 /lnc/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:56:39+08:00 ] ::1 /lnc/INDEX/INDEX
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:INDEX
+
+[ 2016-10-16T11:56:49+08:00 ] ::1 /lnc/INDEX/U('../User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('
+
+[ 2016-10-16T11:57:25+08:00 ] ::1 /lnc/INDEX/User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:verifyName')
+
+[ 2016-10-16T11:58:31+08:00 ] ::1 /lnc/INDEX/U('Home/User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('Home
+
+[ 2016-10-16T11:58:33+08:00 ] ::1 /lnc/INDEX/U('Home/User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('Home
+
+[ 2016-10-16T11:59:13+08:00 ] ::1 /lnc/INDEX/U('Home/User/verifyName')
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:U('Home
+
+[ 2016-10-16T12:00:07+08:00 ] ::1 /lnc/INDEX/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+ERR: Class 'Home\Controller\M' not found
+
+[ 2016-10-16T12:00:28+08:00 ] ::1 /lnc/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Class 'Home\Controller\M' not found
+
+[ 2016-10-16T12:00:51+08:00 ] ::1 /lnc/User/verifyName
+ERR: Class 'Home\Controller\M' not found
+
+[ 2016-10-16T12:01:55+08:00 ] ::1 /lnc/User/verifyName
+ERR: Class 'Home\Controller\M' not found
+
+[ 2016-10-16T12:02:03+08:00 ] ::1 /lnc/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0270s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-16T12:02:12+08:00 ] ::1 /lnc/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-16T12:05:11+08:00 ] ::1 /lnc/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:05:41+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-16T12:06:07+08:00 ] ::1 /lnc/index/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T12:06:44+08:00 ] ::1 /lnc/index/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T12:07:02+08:00 ] ::1 /lnc/index/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T12:11:29+08:00 ] ::1 /lnc/index/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T12:12:07+08:00 ] ::1 /lnc/index/index/Home/Controller/UserController.class.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Home
+
+[ 2016-10-16T12:15:20+08:00 ] ::1 /lnc/index/index/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T12:15:27+08:00 ] ::1 /lnc/index/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T12:16:01+08:00 ] ::1 /lnc/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T12:16:08+08:00 ] ::1 /lnc/index%E3%80%82html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index„ÄÇhtml
+
+[ 2016-10-16T12:16:13+08:00 ] ::1 /lnc/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T12:16:17+08:00 ] ::1 /lnc/Home/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T12:16:20+08:00 ] ::1 /lnc/Home
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T12:18:39+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Lnc
+
+[ 2016-10-16T12:18:42+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Lnc
+
+[ 2016-10-16T12:19:00+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Lnc
+
+[ 2016-10-16T12:19:02+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Main
+
+[ 2016-10-16T12:19:21+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Main
+
+[ 2016-10-16T12:19:22+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Main
+
+[ 2016-10-16T12:19:24+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Main
+
+[ 2016-10-16T12:19:25+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Main
+
+[ 2016-10-16T12:19:25+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Main
+
+[ 2016-10-16T12:19:25+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Main
+
+[ 2016-10-16T12:19:25+08:00 ] ::1 /lnc/
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Main
+
+[ 2016-10-16T12:19:37+08:00 ] ::1 /lnc/
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®:./Application/Home/View/Main/Index.html
+
+[ 2016-10-16T12:21:44+08:00 ] ::1 /lnc/
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Main
+
+[ 2016-10-16T12:22:07+08:00 ] ::1 /lnc/Main
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Main
+
+[ 2016-10-16T12:23:36+08:00 ] ::1 /lnc/Home/Main
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Main
+
+[ 2016-10-16T12:23:49+08:00 ] ::1 /lnc/Home/Main
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®:./Application/Home/View/Main/Main.html
+
+[ 2016-10-16T12:26:10+08:00 ] ::1 /lnc/Home/Main
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Main
+
+[ 2016-10-16T12:27:31+08:00 ] ::1 /lnc/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:27:47+08:00 ] ::1 /lnc/index/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T12:28:04+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:31:43+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:32:14+08:00 ] ::1 /lnc/index/Main/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T12:32:20+08:00 ] ::1 /lnc/index/Main/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T12:32:42+08:00 ] ::1 /lnc/index/Main/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T12:32:54+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:32:59+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:35:13+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:35:32+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:36:32+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-16T12:37:05+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0080s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-16T12:37:45+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T12:38:07+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-16T12:38:16+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-16T12:39:28+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-16T12:40:13+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:40:15+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-16T12:40:59+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\lnc\Application\Home\Controller\UserController.class.php Á¨¨ 15 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:41:35+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:44:55+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-16T12:45:01+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:45:06+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T12:45:09+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T12:47:41+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:48:55+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+
+[ 2016-10-16T12:49:47+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:51:39+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:51:42+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:52:50+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:53:00+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:53:02+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:55:21+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:55:28+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+
+[ 2016-10-16T12:55:31+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+
+[ 2016-10-16T12:55:36+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:57:20+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T12:57:23+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:03:40+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:03:51+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:03:53+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:07:39+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:07:42+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:07:44+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:13+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:14+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:09:14+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:14+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:15+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:15+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:15+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:15+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:16+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:16+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '111111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:09:16+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:17+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:17+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:17+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:17+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2016-10-16T13:09:41+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:42+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:43+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:09:55+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:09:56+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:10:10+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:10:49+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:10:50+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:11:09+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:11:26+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:19:35+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:36+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:19:36+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:19:36+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:36+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:36+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:36+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1111111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:19:37+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '11111111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:19:37+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '111111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:40+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:40+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:40+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:40+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:19:41+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:42+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:19:42+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:42+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:43+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:43+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:44+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:46+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:19:46+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:19:47+08:00 ] ::1 /lnc/index/User/verifyName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'ÈÇìÂ∫∑Âèë' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:36:40+08:00 ] ::1 /lnc/Public/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T13:39:49+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:40:24+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:40:45+08:00 ] ::1 /lnc/Main/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:43:18+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:43:41+08:00 ] ::1 /lnc/main/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:43:53+08:00 ] ::1 /lnc/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-16T13:43:58+08:00 ] ::1 /lnc/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T13:44:27+08:00 ] ::1 /lnc/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T13:45:01+08:00 ] ::1 /lnc/main/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:46:51+08:00 ] ::1 /lnc/main/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:47:55+08:00 ] ::1 /lnc/main/User/verifyOnly/index.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:48:02+08:00 ] ::1 /lnc/main/User/verifyOnly
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:48:20+08:00 ] ::1 /lnc/main/User/verifyOnly
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:48:21+08:00 ] ::1 /lnc/main/User/verifyOnly
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:49:24+08:00 ] ::1 /lnc/main/User/verifyOnly/index.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:User
+
+[ 2016-10-16T13:49:31+08:00 ] ::1 /lnc/main/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:49:44+08:00 ] ::1 /lnc/main/index.html/index
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.html
+
+[ 2016-10-16T13:49:51+08:00 ] ::1 /lnc/main/index.html/index
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.html
+
+[ 2016-10-16T13:49:53+08:00 ] ::1 /lnc/main/index.html/index
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.html
+
+[ 2016-10-16T13:50:05+08:00 ] ::1 /lnc/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T13:50:14+08:00 ] ::1 /lnc/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-16T13:50:22+08:00 ] ::1 /lnc/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T13:50:25+08:00 ] ::1 /lnc/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T13:50:40+08:00 ] ::1 /lnc/main/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:50:56+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:51:07+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:52:07+08:00 ] ::1 /lnc/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-16T13:55:03+08:00 ] ::1 /lnc/Home/main/index/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 14 Ë°å.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board_name.name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_date  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: t_date D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php Á¨¨ 52 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php Á¨¨ 103 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T13:55:12+08:00 ] ::1 /lnc/Home/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2016-10-16T13:55:14+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:55:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:55:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:55:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:55:21+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:55:22+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131610' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:55:23+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131610' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:55:23+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:55:29+08:00 ] ::1 /lnc/Home/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T13:55:30+08:00 ] ::1 /lnc/Home/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:55:35+08:00 ] ::1 /lnc/Home/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T13:58:49+08:00 ] ::1 /lnc/Main/index.html/jsdlkfjs/shfahkljsdf
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.html
+
+[ 2016-10-16T14:07:03+08:00 ] ::1 /lnc/Board
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®:./Application/Home/View/Board/index.html
+
+[ 2016-10-16T14:25:45+08:00 ] ::1 /lnc/tweets
+ERR: Think\Controller:dispalyÊñπÊ≥ï‰∏çÂ≠òÂú®ÔºÅ
+
+[ 2016-10-16T14:26:31+08:00 ] ::1 /lnc/tweets/tweetDetails
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®:./Application/Home/View/Tweets/tweetDetails.html
+
+[ 2016-10-16T14:29:37+08:00 ] ::1 /lnc/Public/css/tuiwenindex.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:29:37+08:00 ] ::1 /lnc/Public/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:29:37+08:00 ] ::1 /lnc/Public/dist/js/lib/jquery-1.10.2.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:29:37+08:00 ] ::1 /lnc/Public/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:36:11+08:00 ] ::1 /lnc/Tweets/tweetdatails
+ERR: ÈùûÊ≥ïÊìç‰Ωú:tweetdatails
+
+[ 2016-10-16T14:36:23+08:00 ] ::1 /lnc/Public/css/tuiwenindex.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:36:23+08:00 ] ::1 /lnc/Public/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:36:23+08:00 ] ::1 /lnc/Public/dist/js/lib/jquery-1.10.2.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:36:23+08:00 ] ::1 /lnc/Public/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/css/%E8%B4%B4%E5%90%A7%E4%B8%BB%E9%A1%B5.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/css/all.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:37:15+08:00 ] ::1 /lnc/Application/Home/View/Board/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T14:39:53+08:00 ] ::1 /lnc/Public/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:39:53+08:00 ] ::1 /lnc/Public/dist/js/lib/jquery-1.10.2.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T14:39:53+08:00 ] ::1 /lnc/Public/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T15:02:45+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:47+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'D' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:49+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'F' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:02:49+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'FK' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:50+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'F' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:02:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:02:53+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'ÈÇìÂ∫∑Âèë' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:04:32+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:50+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:04:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '131' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:51+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:04:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '13161' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:04:52+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1316107553@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-16T15:04:54+08:00 ] ::1 /LNC/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-16T15:09:46+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [1130] Host 'USER-20160708BT' is not allowed to connect to this MySQL server
+
+[ 2016-10-16T15:17:19+08:00 ] ::1 /LNC/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:23:49+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:23:50+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:24:45+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:24:49+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:24:52+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:25:47+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:25:50+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:25:51+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:27:15+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:27:18+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:28:29+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:28:31+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:31:27+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:31:28+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:32:42+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:32:45+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:32:47+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:32:50+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:33:07+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:33:09+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:33:14+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:33:16+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:33:20+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:33:21+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:33:22+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:33:23+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:40:58+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:41:00+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:41:03+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:41:05+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:41:06+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:56:45+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:57:04+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:57:05+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:01+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:03+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:05+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:21+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:23+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:25+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:26+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:27+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:28+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:29+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:51+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T15:59:53+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:43+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:45+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:46+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:47+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:48+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:49+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:50+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:51+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:52+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:54+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:55+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:56+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:57+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:01:58+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:05:49+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:05:51+08:00 ] ::1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:12:56+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:12:59+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:13:01+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:13:05+08:00 ] 192.168.161.1 /lnc/
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:13:24+08:00 ] ::1 /lnc/index
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-10-16T16:14:57+08:00 ] ::1 /lnc/tuiwen.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Tuiwen
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/dist/js/lib/jquery-1.10.2.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/css/all.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/css/tuiwenindex.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:25:00+08:00 ] ::1 /lnc/Application/Home/View/Tweets/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/all.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/index.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.c_pic%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.t_cover%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.b_headicon%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:53+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:54+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/css/index.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/css/all.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/%7B$vo.c_pic%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/%7B$vo.b_headicon%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/%7B$vo.t_cover%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:56+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:59+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:28:59+08:00 ] ::1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/all.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/index.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.c_pic%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.b_headicon%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.t_cover%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:29:50+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:14+08:00 ] 127.0.0.1 /lnc/Home/View/Main/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:View
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/jquery-3.1.1.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/all.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/css/index.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/noMargin.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.c_pic%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.t_cover%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/login_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/%7B$vo.b_headicon%7D
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/tieba_btn.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/To.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:30:40+08:00 ] 127.0.0.1 /lnc/Application/Home/View/Main/__PUBLIC__/js/slider.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Application
+
+[ 2016-10-16T16:41:18+08:00 ] ::1 /lnc/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T16:41:22+08:00 ] ::1 /lnc/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T16:42:40+08:00 ] ::1 /lnc/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T16:43:17+08:00 ] ::1 /lnc/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T16:43:21+08:00 ] ::1 /lnc/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T16:43:45+08:00 ] ::1 /lnc/Main/Main/index.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Main
+
+[ 2016-10-16T16:45:06+08:00 ] ::1 /lnc/index.php/Main/tuiwen.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:tuiwen
+
+[ 2016-10-16T18:02:44+08:00 ] ::1 /lnc/index.php/Main/www.baidu.com
+ERR: ÈùûÊ≥ïÊìç‰Ωú:www.baidu.com
+
+[ 2016-10-16T18:04:39+08:00 ] ::1 /lnc/index.php/Main/index.html
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®:./Application/Home/View/Main/index.html
+
+[ 2016-10-16T18:04:57+08:00 ] ::1 /lnc/tuiwen.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Tuiwen
+
+[ 2016-10-16T18:05:39+08:00 ] ::1 /lnc/index.php/Main/NAN.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:NAN
+
+[ 2016-10-16T18:07:27+08:00 ] ::1 /lnc/
+ERR: syntax error, unexpected '/'
+
+[ 2016-10-16T18:07:32+08:00 ] ::1 /lnc/index
+ERR: syntax error, unexpected '/'
+
+[ 2016-10-16T18:07:34+08:00 ] ::1 /lnc/index
+ERR: syntax error, unexpected '/'
+
+[ 2016-10-16T18:07:45+08:00 ] ::1 /lnc/index.php/Main/NAN.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:NAN
+
+[ 2016-10-16T18:08:20+08:00 ] ::1 /lnc/index.php/Main/NAN.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:NAN
+
+[ 2016-10-16T18:08:21+08:00 ] ::1 /lnc/index.php/Main/NAN.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:NAN
+
+[ 2016-10-16T18:08:41+08:00 ] ::1 /lnc/index.php/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Index
+
+[ 2016-10-16T18:15:50+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:15:50+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:00+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:01+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:02+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:02+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:03+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:13+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:13+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:14+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:14+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:16+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:16+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:20+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:20+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/js/wangEditor.min.js
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:16:50+08:00 ] ::1 /lnc/Public/wangEditor-2.1.20/dist/css/wangEditor.min.css
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2016-10-16T18:19:53+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/APP_PATH/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:21:26+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/APP_PATH/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:22:14+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/APP_PATH/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:24:13+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/dirname(APP_PATH)/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:24:37+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/APP_PATH/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:25:45+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:26:16+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//IETF//DTD%20HTML%202.0//EN%22%3E%3Chtml%3E%3Chead%3E%3Ctitle%3E404%20Not%20Found%3C/title%3E%3C/head%3E%3Cbody%3E%3Ch1%3ENot%20Found%3C/h1%3E%3Cp%3EThe%20requested%20URL%20/Public/upload%20was%20not%20found%20on%20this%20server.%3C/p%3E%3Chr%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:26:46+08:00 ] ::1 /lnc/User/lnc/Public/upload
+ERR: ÈùûÊ≥ïÊìç‰Ωú:lnc
+
+[ 2016-10-16T18:26:46+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:27:08+08:00 ] ::1 /lnc/User/lnc/Main/index
+ERR: ÈùûÊ≥ïÊìç‰Ωú:lnc
+
+[ 2016-10-16T18:27:08+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:27:46+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Cmeta%20charset=%22utf-8%22%20/%3E%3Ctitle%3E%E5%B2%AD%E5%8D%97%E6%A0%A1%E5%9B%AD%3C/title%3E%3Clink%20rel=%22stylesheet%22%20type=%22text/css%22%20href=%22/lnc/Public/css/index.css%22/%3E%3Clink%20rel=%22stylesheet%22%20type=%22text/css%22%20href=%22/lnc/Public/css/all.css%22/%3E%3Cscript%20src=%22/lnc/Public/js/jquery-3.1.1.min.js%22%20type=%22text/javascript%22%20charset=%22utf-8%22%3E%3C/script%3E%3C/head%3E%3Cbody%3E%3C!--%E9%A1%B5%E7%9C%89--%3E%3Cdiv%20id=%22top%22%3E%3Cdiv%20class=%22out%22%3E%3C!--logo--%3E%3Cdiv%20class=%22logo%22%3E%E5%B2%AD%E5%8D%97%E6%A0%A1%E5%9B%AD%3C/div%3E%3C!--%E5%AF%BC%E8%88%AA--%3E%3Cdiv%20class=%22tab%22%3E%3Cul%3E%3Cli%3E%3Ca%20href=%22/lnc%22%3E%E9%A6%96%E9%A1%B5%3C/a%3E%3C/li%3E%3Cli%3E%3Ca%20href=%22/lnc/Tweets/index%22%3E%E6%8E%A8%E6%96%87%3C/a%3E%3C/li%3E%3Cli%20id=%22tieba_btn%22%3E%E8%B4%B4%E5%90%A7%3Cdiv%20class=%22list%22%3E%3Ca%20href=%22tuiwen.html%22%3E%E5%8D%8F%E4%BC%9A%3C/a%3E%3Ca%20href=%22tuiwen.html%22%3E%E7%8F%AD%E7%BA%A7%3C/a%3E%3C/div%3E%3C/li%3E%3C/ul%3E%3C/div%3E%3C!--%E7%99%BB%E9%99%86%E6%8C%89%E9%92%AE%E4%BB%A5%E5%8F%8A%E6%90%9C%E7%B4%A2%E6%A1%86--%3E%3Cdiv%20class=%22btn_search%22%3E%3Cul%3E%3C!--%E6%B2%A1%E7%99%BB%E9%99%86--%3E%3Cli%20id=%22login_btn%22%3E%E7%99%BB%E9%99%86%3C/li%3E%3Cli%20style=%22width:%20170px;%22%3E%3Cinput%20type=%22search%22%20name=%22%22%20id=%22search%22%20value=%22%22%20placeholder=%22%E8%B4%B4%E5%90%A7/%E6%8E%A8%E6%96%87%22/%3E%3C/li%3E%3Cli%3E%3Cinput%20type=%22button%22%20name=%22%22%20id=%22%22%20value=%22%E6%90%9C%E7%B4%A2%22%20class=%22button%22/%3E%3C/li%3E%3C/ul%3E%3C/div%3E%3C/div%3E%3C/div%3E%3C!--%E7%99%BB%E9%99%86%E7%AA%97%E5%8F%A3--%3E%3Cdiv%20id=%22login_register%22%3E%3C!--%E7%99%BB%E9%99%86%E6%A1%86%E4%B8%8E%E6%B3%A8%E5%86%8C%E6%A1%86--%3E%3Cdiv%20class=%22left%22%3E%3Cdiv%20class=%22out%22%3E%3C!--%E7%99%BB%E9%99%86--%3E%3Cdiv%20class=%22login%20box%22%3E%3Ch3%3E%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86%3C/h3%3E%3Cdiv%20class=%22frame%22%3E%3Cform%20action=%22/lnc/index.php/Main/login.html%22%20method=%22post%22%3E%3Cdiv%20class=%22one%22%3E%3Cul%3E%3Cli%3E%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%B7/%E9%82%AE%E7%AE%B1:%3C/li%3E%3Cli%3E%E5%AF%86%E7%A0%81:%3C/li%3E%3Cli%3E%E9%AA%8C%E8%AF%81%E7%A0%81:%3C/li%3E%3Cli%3E%3Cinput%20type=%22checkbox%22%20name=%22checkbox%22%20id=%22%22%20value=%22%22%20/%3E%3C/li%3E%3Cli%3E%3C/li%3E%3C/ul%3E%3C/div%3E%3Cdiv%20class=%22two%22%3E%3Cul%3E%3C!--%E7%94%A8%E6%88%B7%E5%90%8D%20%E9%82%AE%E7%AE%B1--%3E%3Cli%3E%3Cinput%20type=%22text%22%20name=%22user%22%20id=%22%22%20value=%22%22%20class=%22text%22/%3E%3C/li%3E%3C!--%E5%AF%86%E7%A0%81--%3E%3Cli%3E%3Cinput%20type=%22password%22%20name=%22pwd%22%20id=%22%22%20value=%22%22%20class=%22text%22/%3E%3C/li%3E%3C!--%E9%AA%8C%E8%AF%81%E7%A0%81--%3E%3Cli%20style=%22width:%20300px;%22%3E%3Cinput%20type=%22text%22%20name=%22code%22%20id=%22%22%20value=%22%22%20class=%22text%22%20style=%22float:%20left;width:%2075px;%22/%3E%3Cdiv%20id=%22yanzheng%22%3E%3Cimg%20class=%22verify%22%20src=%22/lnc/index.php/Main/verify.html%22%20alt=%22%E9%AA%8C%E8%AF%81%E7%A0%81%22%20onClick=%22this.src=this.src+'?%27+Math.random()%22;/%3E%3C/div%3E%3Ca%20href=%22
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:31:27+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//W3C//DTD%20HTML%203.2%20Final//EN%22%3E%3Chtml%3E%20%3Chead%3E%20%20%3Ctitle%3EIndex%20of%20/lnc/Public/upload%3C/title%3E%20%3C/head%3E%20%3Cbody%3E%3Ch1%3EIndex%20of%20/lnc/Public/upload%3C/h1%3E%20%20%3Ctable%3E%20%20%20%3Ctr%3E%3Cth%20valign=%22top%22%3E%3Cimg%20src=%22/icons/blank.gif%22%20alt=%22[ICO]%22%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=N;O=D%22%3EName%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=M;O=A%22%3ELast%20modified%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=S;O=A%22%3ESize%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=D;O=A%22%3EDescription%3C/a%3E%3C/th%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3Ctr%3E%3Ctd%20valign=%22top%22%3E%3Cimg%20src=%22/icons/back.gif%22%20alt=%22[PARENTDIR]%22%3E%3C/td%3E%3Ctd%3E%3Ca%20href=%22/lnc/Public/%22%3EParent%20Directory%3C/a%3E%20%20%20%20%20%20%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3Ctd%20align=%22right%22%3E%20%20-%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3C/table%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:32:20+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//W3C//DTD%20HTML%203.2%20Final//EN%22%3E%3Chtml%3E%20%3Chead%3E%20%20%3Ctitle%3EIndex%20of%20/lnc/Public/upload%3C/title%3E%20%3C/head%3E%20%3Cbody%3E%3Ch1%3EIndex%20of%20/lnc/Public/upload%3C/h1%3E%20%20%3Ctable%3E%20%20%20%3Ctr%3E%3Cth%20valign=%22top%22%3E%3Cimg%20src=%22/icons/blank.gif%22%20alt=%22[ICO]%22%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=N;O=D%22%3EName%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=M;O=A%22%3ELast%20modified%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=S;O=A%22%3ESize%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=D;O=A%22%3EDescription%3C/a%3E%3C/th%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3Ctr%3E%3Ctd%20valign=%22top%22%3E%3Cimg%20src=%22/icons/back.gif%22%20alt=%22[PARENTDIR]%22%3E%3C/td%3E%3Ctd%3E%3Ca%20href=%22/lnc/Public/%22%3EParent%20Directory%3C/a%3E%20%20%20%20%20%20%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3Ctd%20align=%22right%22%3E%20%20-%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3C/table%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:36:40+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//W3C//DTD%20HTML%203.2%20Final//EN%22%3E%3Chtml%3E%20%3Chead%3E%20%20%3Ctitle%3EIndex%20of%20/lnc/Public/upload%3C/title%3E%20%3C/head%3E%20%3Cbody%3E%3Ch1%3EIndex%20of%20/lnc/Public/upload%3C/h1%3E%20%20%3Ctable%3E%20%20%20%3Ctr%3E%3Cth%20valign=%22top%22%3E%3Cimg%20src=%22/icons/blank.gif%22%20alt=%22[ICO]%22%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=N;O=D%22%3EName%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=M;O=A%22%3ELast%20modified%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=S;O=A%22%3ESize%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=D;O=A%22%3EDescription%3C/a%3E%3C/th%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3Ctr%3E%3Ctd%20valign=%22top%22%3E%3Cimg%20src=%22/icons/back.gif%22%20alt=%22[PARENTDIR]%22%3E%3C/td%3E%3Ctd%3E%3Ca%20href=%22/lnc/Public/%22%3EParent%20Directory%3C/a%3E%20%20%20%20%20%20%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3Ctd%20align=%22right%22%3E%20%20-%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3C/table%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T18:39:11+08:00 ] ::1 /lnc/User/%3C!DOCTYPE%20HTML%20PUBLIC%20%22-//W3C//DTD%20HTML%203.2%20Final//EN%22%3E%3Chtml%3E%20%3Chead%3E%20%20%3Ctitle%3EIndex%20of%20/lnc/Public/upload%3C/title%3E%20%3C/head%3E%20%3Cbody%3E%3Ch1%3EIndex%20of%20/lnc/Public/upload%3C/h1%3E%20%20%3Ctable%3E%20%20%20%3Ctr%3E%3Cth%20valign=%22top%22%3E%3Cimg%20src=%22/icons/blank.gif%22%20alt=%22[ICO]%22%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=N;O=D%22%3EName%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=M;O=A%22%3ELast%20modified%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=S;O=A%22%3ESize%3C/a%3E%3C/th%3E%3Cth%3E%3Ca%20href=%22?C=D;O=A%22%3EDescription%3C/a%3E%3C/th%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3Ctr%3E%3Ctd%20valign=%22top%22%3E%3Cimg%20src=%22/icons/back.gif%22%20alt=%22[PARENTDIR]%22%3E%3C/td%3E%3Ctd%3E%3Ca%20href=%22/lnc/Public/%22%3EParent%20Directory%3C/a%3E%20%20%20%20%20%20%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3Ctd%20align=%22right%22%3E%20%20-%20%3C/td%3E%3Ctd%3E&nbsp;%3C/td%3E%3C/tr%3E%20%20%20%3Ctr%3E%3Cth%20colspan=%225%22%3E%3Chr%3E%3C/th%3E%3C/tr%3E%3C/table%3E%3Caddress%3EApache/2.4.23%20(Win64)%20PHP/7.0.10%20Server%20at%20localhost%20Port%208080%3C/address%3E%3C/body%3E%3C/html%3E
+ERR: ÈùûÊ≥ïÊìç‰Ωú:
+
+[ 2016-10-16T19:26:44+08:00 ] ::1 /lnc/www.baidu.com
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Www.baidu.com
+
+[ 2016-10-16T19:26:45+08:00 ] ::1 /lnc/www.baidu.com
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Www.baidu.com
+
+[ 2016-10-16T19:26:46+08:00 ] ::1 /lnc/www.baidu.com
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Www.baidu.com
+
+[ 2016-10-16T19:31:35+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:32:26+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:32:27+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:32:37+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:20+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:20+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:21+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:21+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:33:21+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:34:51+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:34:51+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:34:57+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2016-10-16T19:34:58+08:00 ] ::1 /lnc/Main.html
+ERR: Cannot use object of type Think\Model as array
+

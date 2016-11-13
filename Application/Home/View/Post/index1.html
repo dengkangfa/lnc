@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/test.css"/>
+</head>
+<body>
+    <!--------------------------------顶部封面-------------------------------->
+    <notempty name="board">
+        <foreach name="board" item="vo">
+    <div class="h_cover">
+    	<!--放头部背景图片图片位置-->
+        <img src="{$vo.b_headicon}">
+    </div>
+
+    <!------------------中间内容------------------>
+    <div class="middle" style="width: 100%;background: rgb(242,243,244);min-width:1100px;">
+        <div class="m_block">
+            <!------------贴吧信息------------>
+            <div class="m_block_info">
+                <!------贴吧头像------>
+                <div  class="m_info_icon" >
+                    <img class="img_headicon" src="img/personal_bar/a_09.gif" alt="头像">
+                </div>
+                <!------贴吧信息------>
+                <div class="m_info_other">
+                    <div class="m_info_name">                             <!------贴吧名字------>
+                        <b style="font-size: 25px">15软件1班</b>
+                    </div>
+                    <div class="m_info_atn">                              <!------关注按钮------>
+                        <a  class="button_atn" href="">+关注</a>
+                    </div>
+                    <div class="m_info_fans">                            <!------其它信息------>
+                        <span>关注：</span>
+                        <span>100</span>
+                        <span>帖子：</span>
+                        <span>200</span>
+                    </div>
+                </div>
+                <!------贴吧签名------>
+                <div class="m_info_signature">
+                    <p>我就是个签名.........................而且自适应.....................虽然输入的签名不一定有这么长。。。。。。。。。
+                        。。。。。但是还是做好适应比较好。。。。。。。。。。。。。。。。。。说不定该需求呢。。。。。。。。。。。。。。。。。。。。。。。。。。。。。</p>
+                </div>
+            </div>
+            <notempty/>
+            <foreach/>
+
+            <!------------贴子内容------------>
+            <div class="m_post">
+                <!------帖子标题------>
+                <div class="m_post_title">
+                    <p>我是标题,可以输入很长很长....................................................................不信试试看.........................但是后台会做标题
+                        字数的限制的!!!!!!!!!!!!!!!字数的限制的!!!!!!!!!!!!!!!字数的限制的!!!!!!!!!!!!!!!字数的限制的!!!!!!!!!!!!!!!</p>
+                </div>
+
+                <!------贴吧评论------>
+                <div class="m_post_comment">
+                    <!------评论左块------>
+                    <div class="m_post_comment_left" align="center">
+                        <div class="m_comment_headicon">
+                            <img class="img_headicon" src="img/personal_bar/a_09.gif" alt="头像">                        <!------用户头像------>
+                        </div>
+                        <div class="m_comment_username">
+                            <a href="">林塬同学</a>                                                   <!------用户名字------>
+                        </div>
+                    </div>
+                    <!------评论右块------>
+                    <div class="m_post_comment_right">
+                        <!------评论内容----富文本框内容------>
+                        <div class="m_comment_content">
+                            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p><p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p><p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                        </div>
+                        <!------评论信息------>
+                        <div class="m_post_info">
+                            <span>1楼</span>
+                            <span>2016-10-18 16:11</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------页    码-------------->
+		    <div class="page">
+				 <ul class="page_style">
+					<li><a href="#">上一页</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">下一页</a></li>
+				</ul>
+		    </div>
+             <!--wangEditor-->
+             <div class="comment">
+             	<h3>发表评论</h3>
+             	<div class="wangEditor">
+              	<!--插入wangEditor位置-->
+              	</div>
+              	<div class="m_submit_atn">
+              		<a  class="submit_atn"  href="#">提交</a>
+              	</div>
+             </div>
+        </div>
+
+    </div>
+</body>
+</html>

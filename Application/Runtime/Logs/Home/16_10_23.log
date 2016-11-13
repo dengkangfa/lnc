@@ -1,0 +1,2204 @@
+[ 2016-10-23T00:09:13+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152553','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152553','6')
+
+[ 2016-10-23T00:09:14+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152554','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152554','6')
+
+[ 2016-10-23T00:09:14+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152554','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152554','6')
+
+[ 2016-10-23T00:09:15+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+
+[ 2016-10-23T00:09:15+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+
+[ 2016-10-23T00:09:15+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+
+[ 2016-10-23T00:09:15+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+
+[ 2016-10-23T00:09:15+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152555','6')
+
+[ 2016-10-23T00:09:16+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+
+[ 2016-10-23T00:09:16+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+
+[ 2016-10-23T00:09:16+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+
+[ 2016-10-23T00:09:16+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+
+[ 2016-10-23T00:09:16+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152556','6')
+
+[ 2016-10-23T00:09:17+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152557','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152557','6')
+
+[ 2016-10-23T00:09:17+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152557','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152557','6')
+
+[ 2016-10-23T00:09:17+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152557','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152557','6')
+
+[ 2016-10-23T00:09:18+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152558','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152558','6')
+
+[ 2016-10-23T00:14:24+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152864','7')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152864','7')
+
+[ 2016-10-23T00:14:24+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152864','7')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152864','7')
+
+[ 2016-10-23T00:14:25+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152865','7')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477152865','7')
+
+[ 2016-10-23T12:28:52+08:00 ] ::1 /lnc/index.php/Tweets/postComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477196932','6')
+ERR: 1364:Field 'comment' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`t_id`) VALUES ('10045','1477196932','6')
+
+[ 2016-10-23T12:50:10+08:00 ] ::1 /lnc/Tweets/tweetDetails/id/%7B:U('postComment');%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+
+[ 2016-10-23T12:55:55+08:00 ] ::1 /lnc/Tweets/tweetDetails/id/%7B:U('postComment');%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+
+[ 2016-10-23T13:00:57+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES (NULL,'1477198857','
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES (NULL,'1477198857','
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+
+[ 2016-10-23T13:02:04+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES (NULL,'1477198924','
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES (NULL,'1477198924','
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+
+[ 2016-10-23T13:02:35+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES (NULL,'1477198955','
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES (NULL,'1477198955','
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+
+[ 2016-10-23T13:02:39+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES (NULL,'1477198959','
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES (NULL,'1477198959','
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+
+[ 2016-10-23T13:03:25+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`u_id`,`date`,`comment`,`t_id`) VALUES ('10045','1477199005','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:21:38+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200098','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:21:49+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200109',NULL,'
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+ERR: 1048:Column 'u_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200109',NULL,'
+        <p>请输入内容...</p>
+    <p><br></p>','6')
+
+[ 2016-10-23T13:22:08+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-23T13:25:49+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+NOTIC: [4096] Object of class Home\Controller\TweetsController could not be converted to string D:\wamp64\www\lnc\Application\Home\Controller\CommentController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:26:10+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:26:56+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:27:09+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T13:27:26+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:29:30+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:29:48+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200588','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+ERR: Think\Controller:echo1方法不存在！
+
+[ 2016-10-23T13:30:04+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200604','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-23T13:30:17+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200617','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-23T13:30:18+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200618','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-23T13:30:19+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200619','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-23T13:30:20+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200620','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-23T13:30:40+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200640','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-23T13:36:30+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477200990','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:39:29+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477201169','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:39:45+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477201185','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','7') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-23T13:41:06+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477201266','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','7') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id = 6 )  [ RunTime:0.0000s ]
+ERR: 模板不存在:./Application/Home/View/Comment/postComment.html
+
+[ 2016-10-23T13:46:43+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477201603','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','7') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id = 6 )  [ RunTime:0.0010s ]
+ERR: 模板不存在:./Application/Home/View/Comment/tweetDetails.html
+
+[ 2016-10-23T13:47:21+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477201641','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','7') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id = 6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 103 行.
+NOTIC: [8] Undefined variable: type D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 213 行.
+NOTIC: [8] Undefined variable: id D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:47:26+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477201646','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','7') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id = 6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 103 行.
+NOTIC: [8] Undefined variable: type D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 213 行.
+NOTIC: [8] Undefined variable: id D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T13:47:27+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477201647','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','7') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id = 6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 103 行.
+NOTIC: [8] Undefined variable: type D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 213 行.
+NOTIC: [8] Undefined variable: id D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:47:55+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477201675','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','11') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id = 6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 103 行.
+NOTIC: [8] Undefined variable: type D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 213 行.
+NOTIC: [8] Undefined variable: id D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-23T13:56:31+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477202191','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','11') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:56:32+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477202192','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','11') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T13:56:36+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477202196','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','11') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:04:11+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477202651','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','11') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:04:17+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477202657','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','3') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:04:31+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T14:06:01+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:06:13+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:09:13+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T14:17:50+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:18:06+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203486','10045','
+        <p><br></p>','6') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:18:14+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203494','10045','
+        <p><br></p>','6') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:18:59+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203539','10045','
+        <p><br></p>
+    <p><br></p>','6') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:19:03+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203543','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0010s ]
+
+[ 2016-10-23T14:19:29+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203569','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','6') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:19:40+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203580','10045','
+        <p><br></p>
+    <p><br></p>','2') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:19:57+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203597','10045','
+        <p><br></p>','2') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:20:47+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203647','10045','
+        <p><br></p>
+    <p><br></p>','2') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:21:46+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203706','10045','
+        <p>请输入内容...</p>
+    <p><br></p>','2') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:22:07+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203727','10045','
+        <p><br></p>','2') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:22:28+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477203748','10045','
+        <p><br></p>','2') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:22:53+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:23:48+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:25:37+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:26:01+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:26:20+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:26:41+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-23T14:27:12+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477204032','10045','
+        <p><br></p>','2') [ RunTime:0.0020s ]
+
+[ 2016-10-23T14:27:28+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477204048','10045','
+        <p><br></p>','2') [ RunTime:0.0030s ]
+
+[ 2016-10-23T14:27:54+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477204074','10045','
+        <p><br></p>','2') [ RunTime:0.0010s ]
+
+[ 2016-10-23T14:28:42+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:28:58+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:29:09+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:29:13+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-23T14:29:40+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-23T14:29:50+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:30:15+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:30:28+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-23T14:31:05+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:31:34+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:31:54+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:33:02+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:33:31+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T14:35:16+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477204516','10045','
+        <p>11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p><p><br></p>','2') [ RunTime:0.0030s ]
+
+[ 2016-10-23T14:36:39+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T15:06:20+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-23T15:06:20+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '的' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-23T15:06:24+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_email` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-23T15:06:34+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-23T15:06:34+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dk' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-23T15:06:34+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = 'dkf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-23T15:06:34+08:00 ] ::1 /lnc/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_user` WHERE `u_name` = '邓康发' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-23T15:15:12+08:00 ] ::1 /lnc/
+ERR: syntax error, unexpected 'cookie' (T_STRING), expecting ',' or ';'
+
+[ 2016-10-23T15:15:14+08:00 ] ::1 /lnc/index.php/Board/verify.html
+ERR: syntax error, unexpected 'cookie' (T_STRING), expecting ',' or ';'
+
+[ 2016-10-23T15:38:49+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-23T15:44:14+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/User/verifyOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+
+[ 2016-10-23T15:48:07+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T15:58:29+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T15:58:55+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477209535','10045','<p>h1h1h1h1h1hh1</p>','6') [ RunTime:0.0020s ]
+
+[ 2016-10-23T16:57:44+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:57:58+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:57:58+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:57:59+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:57:59+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:57:59+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:08+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:08+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:09+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:09+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:25+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:26+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:26+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:26+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:27+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:37+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:38+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:38+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:38+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:39+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:41+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:42+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:42+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:42+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:42+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:43+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:43+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:43+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:43+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T16:59:44+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:12+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:16+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:30+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:30+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:30+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:31+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:32+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:35+08:00 ] ::1 /lnc/Post/index/id/26
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:00:51+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:01:15+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:01:15+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting end of file
+
+[ 2016-10-23T17:08:17+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: Think\Model:counr方法不存在！
+
+[ 2016-10-23T17:37:26+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' AND `u_id` = '10045' LIMIT 0,8  
+
+[ 2016-10-23T17:37:38+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' AND `u_id` = '10045' LIMIT 0,8  
+
+[ 2016-10-23T17:37:39+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' AND `u_id` = '10045' LIMIT 0,8  
+
+[ 2016-10-23T17:37:39+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' AND `u_id` = '10045' LIMIT 0,8  
+
+[ 2016-10-23T17:37:39+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' AND `u_id` = '10045' LIMIT 0,8  
+
+[ 2016-10-23T17:37:39+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' AND `u_id` = '10045' LIMIT 0,8  
+
+[ 2016-10-23T17:37:40+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' AND `u_id` = '10045' LIMIT 0,8  
+
+[ 2016-10-23T17:37:40+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' AND `u_id` = '10045' LIMIT 0,8  
+
+[ 2016-10-23T17:38:18+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:38:19+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:38:34+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8  
+
+[ 2016-10-23T17:38:34+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8  
+
+[ 2016-10-23T17:38:34+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8  
+
+[ 2016-10-23T17:38:35+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8  
+
+[ 2016-10-23T17:38:39+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'p_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE `p_id` = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:39:21+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:39:21+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:39:22+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:39:22+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:39:22+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:39:22+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1052:Column 'b_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND `b_id` = '5' LIMIT 0,8  
+
+[ 2016-10-23T17:39:34+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1054:Unknown column 'lnc_board.b_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lnc_post` WHERE lnc_post.p_id = '25' AND lnc_board.b_id = '5' LIMIT 1  
+
+[ 2016-10-23T19:18:24+08:00 ] ::1 /lnc/Post/index/id/25/p/2
+ERR: syntax error, unexpected '<', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2016-10-23T19:20:07+08:00 ] ::1 /lnc/Post/index/id/25/p/p/2.html
+ERR: syntax error, unexpected '<', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2016-10-23T19:57:09+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1146:Table 'lnc.lnc_comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lnc_comment`
+
+[ 2016-10-23T19:57:29+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1054:Unknown column 'lnc_post.p_id' in 'where clause'
+ [ SQL语句 ] : SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.p_id=lnc_user.p_id  WHERE lnc_post.p_id = '25' AND lnc_post.b_id = '5' AND `p_id` = '25' 
+
+[ 2016-10-23T19:57:53+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1054:Unknown column 'lnc_user.p_id' in 'on clause'
+ [ SQL语句 ] : SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.p_id=lnc_user.p_id  WHERE `p_id` = '25' 
+
+[ 2016-10-23T19:57:54+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1054:Unknown column 'lnc_user.p_id' in 'on clause'
+ [ SQL语句 ] : SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.p_id=lnc_user.p_id  WHERE `p_id` = '25' 
+
+[ 2016-10-23T20:20:29+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`lnc`.`lnc_post_comment`, CONSTRAINT `lnc_post_comment_ibfk_1` FOREIGN KEY (`p_id`) REFERENCES `lnc_post` (`p_id`))
+ [ SQL语句 ] : INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225229','10045','<p>11</p>','5')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`lnc`.`lnc_post_comment`, CONSTRAINT `lnc_post_comment_ibfk_1` FOREIGN KEY (`p_id`) REFERENCES `lnc_post` (`p_id`))
+ [ SQL语句 ] : INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225229','10045','<p>11</p>','5')
+
+[ 2016-10-23T20:22:29+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_tweets_comment` (`date`,`u_id`,`comment`,`t_id`) VALUES ('1477225349','10045','<p>111</p>','25') [ RunTime:0.0010s ]
+
+[ 2016-10-23T20:22:56+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225376','10045','<p>545445</p>','25') [ RunTime:0.0010s ]
+
+[ 2016-10-23T20:23:32+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225412','10045','<p><ul><li style=\"text-align: center; \">是框架啊发很快就阿富汗空间灵活的哈克立法会克劳福德好看啦红烧豆腐哈萨克货到付款撒谎发困难重重见色卡号灰色空间发话是否和会计师房间卡还款函数库两极分化建安费很快就回房间爱回家哈市唠嗑继父回家开发环境按客户<br></li></ul></p><p><br></p>','25') [ RunTime:0.0010s ]
+
+[ 2016-10-23T20:23:41+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225421','10045','<p>1</p>','25') [ RunTime:0.0010s ]
+
+[ 2016-10-23T20:23:43+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225423','10045','<p>1</p>','25') [ RunTime:0.0010s ]
+
+[ 2016-10-23T20:23:45+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225425','10045','<p>1</p>','25') [ RunTime:0.0010s ]
+
+[ 2016-10-23T20:23:48+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225428','10045','<p>1</p>','25') [ RunTime:0.0010s ]
+
+[ 2016-10-23T20:23:50+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477225430','10045','<p>1</p>','25') [ RunTime:0.0020s ]
+
+[ 2016-10-23T20:33:52+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1055:Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_post_content.content' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id INNER JOIN lnc_post_comment ON lnc_post.p_id=lnc_post_comment.p_id  WHERE lnc_post.p_id = '25' AND lnc_post.b_id = '5' GROUP BY lnc_post_title.title LIMIT 0,8  
+
+[ 2016-10-23T20:34:00+08:00 ] ::1 /lnc/Post/index/id/25
+ERR: 1055:Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_post_content.content' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id INNER JOIN lnc_post_comment ON lnc_post.p_id=lnc_post_comment.p_id  WHERE lnc_post.p_id = '25' AND lnc_post.b_id = '5' GROUP BY lnc_post_title.title LIMIT 0,8  
+
+[ 2016-10-23T20:38:33+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477226313','10045','<p>11111</p>','25') [ RunTime:0.0020s ]
+
+[ 2016-10-23T20:41:55+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477226515','10045','<p>232323</p>','25') [ RunTime:0.0020s ]
+
+[ 2016-10-23T20:42:00+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477226520','10045','<p>232323</p>','25') [ RunTime:0.0020s ]
+
+[ 2016-10-23T20:42:07+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477226527','10045','<p>232323</p>','25') [ RunTime:0.0030s ]
+
+[ 2016-10-23T20:42:14+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477226534','10045','<p>的根深蒂固</p>','25') [ RunTime:0.0020s ]
+
+[ 2016-10-23T20:51:20+08:00 ] ::1 /lnc/index.php/Post/index/id/25/p/2.html
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2016-10-23T21:21:09+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477228869','10045','<p>好好好好好</p>','25') [ RunTime:0.0010s ]
+
+[ 2016-10-23T21:36:56+08:00 ] ::1 /lnc/Post/index/id/29
+ERR: 1055:Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lnc.lnc_post.p_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQL语句 ] : SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id INNER JOIN lnc_post_comment ON lnc_post.p_id=lnc_post_comment.p_id  GROUP BY lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name 
+
+[ 2016-10-23T21:40:25+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T21:41:12+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T21:41:59+08:00 ] ::1 /lnc/Comment/postComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\lnc\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lnc_post_comment` (`date`,`u_id`,`comment`,`p_id`) VALUES ('1477230119','10045','<p>评论一下</p>','28') [ RunTime:0.0010s ]
+
+[ 2016-10-23T21:56:01+08:00 ] ::1 /lnc/Comment/upload
+ERR: Class 'Home\Controller\UploadEvent' not found
+
+[ 2016-10-23T22:06:58+08:00 ] ::1 /lnc/Post/index/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0000s ]
+SQL: SELECT `b_id` FROM `lnc_post` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT b.b_headicon,b.b_cover,lnc_board_name.b_name,lnc_board_explain.b_explain FROM lnc_board b INNER JOIN lnc_board_name ON b.b_id = lnc_board_name.b_id INNER JOIN lnc_board_explain ON b.b_id = lnc_board_explain.b_id  WHERE ( b.b_id=5 ) GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `b_id` = 5 AND `u_id` = 10045 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND lnc_post.b_id = '5' GROUP BY lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post_comment` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.u_id=lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:07:04+08:00 ] ::1 /lnc/Comment/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:07:22+08:00 ] ::1 /lnc/Comment/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:09:16+08:00 ] ::1 /lnc/Comment/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\lnc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:09:38+08:00 ] ::1 /lnc/Post/index/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0010s ]
+SQL: SELECT `b_id` FROM `lnc_post` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT b.b_headicon,b.b_cover,lnc_board_name.b_name,lnc_board_explain.b_explain FROM lnc_board b INNER JOIN lnc_board_name ON b.b_id = lnc_board_name.b_id INNER JOIN lnc_board_explain ON b.b_id = lnc_board_explain.b_id  WHERE ( b.b_id=5 ) GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `b_id` = 5 AND `u_id` = 10045 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND lnc_post.b_id = '5' GROUP BY lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post_comment` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.u_id=lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-23T22:09:42+08:00 ] ::1 /lnc/Comment/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T22:09:42+08:00 ] ::1 /lnc/Post/index/id/%7B%22status%22:0,%22content%22:%22/u4e0a/u4f20/u6587/u4ef6/u5927/u5c0f/u4e0d/u7b26/uff01%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:11:13+08:00 ] ::1 /lnc/Post/index/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0000s ]
+SQL: SELECT `b_id` FROM `lnc_post` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0000s ]
+SQL: SELECT b.b_headicon,b.b_cover,lnc_board_name.b_name,lnc_board_explain.b_explain FROM lnc_board b INNER JOIN lnc_board_name ON b.b_id = lnc_board_name.b_id INNER JOIN lnc_board_explain ON b.b_id = lnc_board_explain.b_id  WHERE ( b.b_id=5 ) GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `b_id` = 5 AND `u_id` = 10045 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND lnc_post.b_id = '5' GROUP BY lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post_comment` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.u_id=lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:11:23+08:00 ] ::1 /lnc/Comment/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:11:23+08:00 ] ::1 /lnc/Post/index/id/%7B%22status%22:0,%22content%22:%22/u4e0a/u4f20/u6587/u4ef6/u5927/u5c0f/u4e0d/u7b26/uff01%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T22:11:24+08:00 ] ::1 /lnc/Post/index/id/%7B%22status%22:0,%22content%22:%22/u4e0a/u4f20/u6587/u4ef6/u5927/u5c0f/u4e0d/u7b26/uff01%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-23T22:37:52+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.046002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046002s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.2730s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0390s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0450s ]
+SQL: SELECT lnc_board.b_id,lnc_board_name.b_name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.4480s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_read desc,lnc_tweets.t_date desc LIMIT 8   [ RunTime:0.1320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.035002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.035002s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2016-10-23T22:37:52+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.2730s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0390s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0450s ]
+SQL: SELECT lnc_board.b_id,lnc_board_name.b_name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.4480s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_read desc,lnc_tweets.t_date desc LIMIT 8   [ RunTime:0.1320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.034002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.034002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.243014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.243014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2016-10-23T22:38:24+08:00 ] ::1 /lnc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Controller\MainController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `lnc_carousel` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_carousel`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT lnc_board.b_id,lnc_board_name.b_name,lnc_board_explain.b_explain,lnc_board.b_headicon,SUM(lnc_post.p_read) as count FROM `lnc_board` INNER JOIN lnc_post on lnc_board.b_id=lnc_post.b_id INNER JOIN lnc_board_name on lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain on lnc_board.b_id=lnc_board_explain.b_id  GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain LIMIT 3   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_tweets` INNER JOIN lnc_tweets_title on lnc_tweets.t_id=lnc_tweets_title.t_id INNER JOIN lnc_tweets_content on lnc_tweets.t_id=lnc_tweets_content.t_id INNER JOIN lnc_tweets_author on lnc_tweets.t_id=lnc_tweets_author.t_id  WHERE `t_state` = '2' ORDER BY lnc_tweets.t_read desc,lnc_tweets.t_date desc LIMIT 8   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T22:38:25+08:00 ] ::1 /lnc/index.php/Main/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-23T22:38:33+08:00 ] ::1 /lnc/Tweets/tweetDetails/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets` [ RunTime:0.0030s ]
+SQL: UPDATE `lnc_tweets` SET `t_read`=t_read+1 WHERE `t_id` = 6 [ RunTime:0.0670s ]
+SQL: SELECT lnc_tweets_title.title,lnc_tweets_author.author,lnc_tweets.t_date,lnc_tweets_content.content FROM `lnc_tweets` INNER JOIN lnc_tweets_title ON lnc_tweets.t_id = lnc_tweets_title.t_id INNER JOIN lnc_tweets_author ON lnc_tweets.t_id = lnc_tweets_author.t_id INNER JOIN lnc_tweets_content ON lnc_tweets.t_id = lnc_tweets_content.t_id  WHERE ( lnc_tweets.t_id = 6 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lnc_tweets_comment` [ RunTime:0.0390s ]
+SQL: SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id = 6 )  [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\e48864e95efe9dc648a0f2af0b3ebdeb.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:38:33+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T22:38:43+08:00 ] ::1 /lnc/Board/plate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0030s ]
+SQL: SELECT lnc_board.b_id,lnc_board.b_headicon,lnc_board_name.b_name,lnc_board_explain.b_explain,COUNT(*) u_count FROM `lnc_board` INNER JOIN lnc_board_name ON lnc_board.b_id=lnc_board_name.b_id INNER JOIN lnc_board_explain ON lnc_board.b_id=lnc_board_explain.b_id INNER JOIN lnc_board_attention ON lnc_board.b_id=lnc_board_attention.b_id  WHERE lnc_board.p_id = '1' GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain  [ RunTime:0.0930s ]
+SQL: SELECT COUNT(*) as p_count FROM `lnc_board` INNER JOIN lnc_post ON lnc_board.b_id=lnc_post.b_id  WHERE lnc_board.p_id = '1' AND lnc_board.b_id = '5'  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\468d2d4880cc566dadd492722703bd9f.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-23T22:38:43+08:00 ] ::1 /lnc/index.php/Board/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-23T22:38:51+08:00 ] ::1 /lnc/Board/personal/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] gzuncompress(): data error D:\wamp64\www\lnc\Application\Home\Common\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `lnc_plate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lnc_plate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT b.b_headicon,b.b_cover,lnc_board_name.b_name,lnc_board_explain.b_explain FROM lnc_board b INNER JOIN lnc_board_name ON b.b_id = lnc_board_name.b_id INNER JOIN lnc_board_explain ON b.b_id = lnc_board_explain.b_id  WHERE ( b.b_id=5 ) GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `b_id` = 5 AND `u_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0020s ]
+SQL: SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name FROM `lnc_post` INNER JOIN lnc_board ON lnc_post.b_id = lnc_board.b_id INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE ( lnc_board.b_id=5 )  [ RunTime:0.0650s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'attention_count' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\cb8e7ce68ea6d2267a8c04d7c5016386.php 第 33 行.
+NOTIC: [2] Illegal string offset 'post_count' D:\wamp64\www\lnc\Application\Runtime\Cache\Home\cb8e7ce68ea6d2267a8c04d7c5016386.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:38:54+08:00 ] ::1 /lnc/Post/index/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0020s ]
+SQL: SELECT `b_id` FROM `lnc_post` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT b.b_headicon,b.b_cover,lnc_board_name.b_name,lnc_board_explain.b_explain FROM lnc_board b INNER JOIN lnc_board_name ON b.b_id = lnc_board_name.b_id INNER JOIN lnc_board_explain ON b.b_id = lnc_board_explain.b_id  WHERE ( b.b_id=5 ) GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `b_id` = 5 AND `u_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND lnc_post.b_id = '5' GROUP BY lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0910s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post_comment` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.u_id=lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:39:01+08:00 ] ::1 /lnc/index.php/Post/index/id/25/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0020s ]
+SQL: SELECT `b_id` FROM `lnc_post` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0020s ]
+SQL: SELECT b.b_headicon,b.b_cover,lnc_board_name.b_name,lnc_board_explain.b_explain FROM lnc_board b INNER JOIN lnc_board_name ON b.b_id = lnc_board_name.b_id INNER JOIN lnc_board_explain ON b.b_id = lnc_board_explain.b_id  WHERE ( b.b_id=5 ) GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `b_id` = 5 AND `u_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_post_title` [ RunTime:0.0020s ]
+SQL: SELECT `title` FROM `lnc_post_title` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post_comment` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.u_id=lnc_user.u_id  WHERE `p_id` = '25' LIMIT 8,8   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: Post D:\wamp64\www\lnc\Application\Home\Controller\PostController.class.php 第 135 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:39:15+08:00 ] ::1 /lnc/Comment/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-23T22:39:15+08:00 ] ::1 /lnc/index.php/Post/index/id/25/p/%7B%22status%22:0,%22content%22:%22/u4e0a/u4f20/u6587/u4ef6/u5927/u5c0f/u4e0d/u7b26/uff01%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0020s ]
+SQL: SELECT `b_id` FROM `lnc_post` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board` [ RunTime:0.0010s ]
+SQL: SELECT b.b_headicon,b.b_cover,lnc_board_name.b_name,lnc_board_explain.b_explain FROM lnc_board b INNER JOIN lnc_board_name ON b.b_id = lnc_board_name.b_id INNER JOIN lnc_board_explain ON b.b_id = lnc_board_explain.b_id  WHERE ( b.b_id=5 ) GROUP BY lnc_board_name.b_name,lnc_board_explain.b_explain  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE `b_id` = 5 AND `u_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lnc_post` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lnc_board_attention` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_board_attention` WHERE ( b_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT lnc_post.p_id,lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post` INNER JOIN lnc_post_title ON lnc_post.p_id = lnc_post_title.p_id INNER JOIN lnc_post_content ON lnc_post.p_id = lnc_post_content.p_id INNER JOIN lnc_user ON lnc_post.u_id = lnc_user.u_id  WHERE lnc_post.p_id = '25' AND lnc_post.b_id = '5' GROUP BY lnc_post_title.title,lnc_post_content.content,lnc_post.p_date,lnc_user.u_name  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lnc_post_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lnc_post_comment` WHERE `p_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT lnc_post_comment.comment,lnc_post_comment.date,lnc_user.u_name,lnc_user.u_headicon FROM `lnc_post_comment` INNER JOIN lnc_user ON lnc_post_comment.u_id=lnc_user.u_id  WHERE `p_id` = '25' LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

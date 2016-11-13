@@ -1,0 +1,150 @@
+[ 2016-10-23T16:11:53+08:00 ] ::1 /lnc/Admin
+ERR: 无法加载控制器:Main
+
+[ 2016-10-23T16:13:00+08:00 ] ::1 /lnc/Admin
+ERR: Think\Controller:dispaly方法不存在！
+
+[ 2016-10-23T16:13:16+08:00 ] ::1 /lnc/Admin
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2016-10-23T16:15:17+08:00 ] ::1 /lnc/Admin
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2016-10-23T16:15:27+08:00 ] ::1 /lnc/Admin/BoardManage
+ERR: 无法加载控制器:BoardManage
+
+[ 2016-10-23T16:15:47+08:00 ] ::1 /lnc/Admin/index/BoardManage
+ERR: 模板不存在:./Application/Admin/View/Index/BoardManage.html
+
+[ 2016-10-23T16:16:46+08:00 ] ::1 /lnc/Admin/index/BoardManage
+ERR: 模板不存在:./Application/Admin/View/Index/BoardManage.html
+
+[ 2016-10-23T16:16:47+08:00 ] ::1 /lnc/Admin/index/BoardManage
+ERR: 模板不存在:./Application/Admin/View/Index/BoardManage.html
+
+[ 2016-10-23T16:16:47+08:00 ] ::1 /lnc/Admin/index/BoardManage
+ERR: 模板不存在:./Application/Admin/View/Index/BoardManage.html
+
+[ 2016-10-23T16:16:47+08:00 ] ::1 /lnc/Admin/index/BoardManage
+ERR: 模板不存在:./Application/Admin/View/Index/BoardManage.html
+
+[ 2016-10-23T16:16:47+08:00 ] ::1 /lnc/Admin/index/BoardManage
+ERR: 模板不存在:./Application/Admin/View/Index/BoardManage.html
+
+[ 2016-10-23T16:16:47+08:00 ] ::1 /lnc/Admin/index/BoardManage
+ERR: 模板不存在:./Application/Admin/View/Index/BoardManage.html
+
+[ 2016-10-23T16:16:50+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:16:50+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:16:50+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:17:56+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:17:58+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:18:06+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:18:06+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:18:06+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:46+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:46+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:46+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:47+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:48+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:49+08:00 ] ::1 /lnc/Admin/right.html
+ERR: 无法加载控制器:Right
+
+[ 2016-10-23T16:29:49+08:00 ] ::1 /lnc/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-10-23T16:29:49+08:00 ] ::1 /lnc/Admin/left.html
+ERR: 无法加载控制器:Left
+

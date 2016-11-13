@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/tiebaUse.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/post_management.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css"/>
+	<script src="__PUBLIC__/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<h3>帖子管理</h3>
+		<table class="table table-striped table-bordered table-hover">
+		   <thead>
+		     <tr>
+		       <th>帖子id</th>
+		       <th>帖子标题</th>
+		       <th>帖子编辑</th>
+		       <th>帖子置顶</th>
+		       <th>帖子删除</th>
+		     </tr>
+		   </thead>
+			<notempty name="post">
+				<foreach name="post" item="vo">
+				   <tbody>
+					 <tr>
+					   <td>{$vo.p_id}</td>
+					   <td>{$vo.title}</td>
+					   <td><a href="/lnc/BoardManage/postEditor/id/{$vo.p_id}">编辑</a></td>
+					   <td><a href="#">置顶</a></td>
+					   <td><a href="/lnc/BoardManage/postDelete/id/{$vo.p_id}"  onclick="return confirm('你真的要删除这条评论吗？')?true:false">删除</a></td>
+					 </tr>
+				   </tbody>
+				</foreach>
+				<else/>
+				<tbody>
+					<tr>
+						<td colspan="5" align="center">没有任何数据</td>
+					</tr>
+				</tbody>
+			</notempty>
+		 </table>
+		 <!--页数切换-->
+		 <div class="chose">
+			 {$page}
+		 	<!--<div class="left">-->
+		 		<!--页:-->
+		 		<!--<span style="color: red;">1</span>-->
+		 		<!--/-->
+		 		<!--<span>1</span>-->
+		 		<!--记录:-->
+		 		<!--<span style="color: red;">0</span>-->
+		 	<!--</div>-->
+		 	<!--<div class="right">-->
+		 		<!--<a href="">首页</a>-->
+		 		<!--<a href="">上一页</a>-->
+		 		<!--<a href="">下一页</a>-->
+		 		<!--<a href="">尾页</a>-->
+		 	<!--</div>-->
+		 	<!--<ul>-->
+		 		<!--<li><a href="">1</a></li>-->
+		 		<!--<li><a href="">2</a></li>-->
+		 		<!--<li><a href="">3</a></li>-->
+		 		<!--<li><a href="">4</a></li>-->
+		 		<!--<li><a href="">5</a></li>-->
+		 		<!--<li><a href="">6</a></li>-->
+		 		<!--<li><a href="">7</a></li>-->
+		 	<!--</ul>-->
+		 </div>
+	</body>
+	<script src="__PUBLIC__/js/showTr.js" type="text/javascript" charset="utf-8"></script>
+</html>

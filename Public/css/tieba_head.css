@@ -1,0 +1,22 @@
+	#box{
+			width: 500px;	
+			height: 200px;
+			margin: 100px auto;
+			text-align: center;
+		}
+		#pic{
+			width: 96px;
+			height: 96px;
+			border-radius: 50%;
+			vertical-align: middle;
+		}
+		#reset_head{
+			display: inline-block;
+			width: 100px;
+			height: 30px;
+			color: #FFFFFF;
+			background: rgb(142,22,20);
+			text-align: center;
+			line-height: 30px;
+			border-radius: 5px;
+		}

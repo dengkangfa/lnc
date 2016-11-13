@@ -1,0 +1,50 @@
+<extend name="Public:base"/>
+<block name="main">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/tweets.css"/>
+    <!--主要内容-->
+    <div id="main">
+        <!--最新推文-->
+        <div id="hot_tuiwen" class="bsBox">
+            <h2>推文主页</h2>
+            <div class="content">
+                <notempty name="tweets">
+                <foreach name="tweets" item="vo">
+                    <a href="/lnc/Tweets/tweetdetails/id/{$vo.t_id}" >
+                        <div class="box bsBox">
+                            <div class="title">
+                                <span class="top">{$vo.title}</span><br />
+                                <div>
+                                    <div class="time">{$vo.t_date|date='Y-m-d',###}</div>
+                                    <div class="author">{$vo.author}</div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="img"><img src="{$vo.t_cover}"/></div>
+                                <div class="content">
+                                    {$vo.synopsis}
+                                </div>
+                                <!--阅读数量-->
+                                <span style="color: silver">阅读数量</span>
+                                <span style="color: red;">{$vo.t_read}</span>
+                                <span style="float: right;">阅读全文></span>
+                            </div>
+                        </div>
+                    </a>
+                </foreach>
+                <else />
+                没有任何数据
+                </notempty>
+            </div>
+            <div class="chose">
+                <!--<ul>-->
+                    {$page}
+                    <!--<li><a href="#">上一页</a></li>-->
+                    <!--<li><a href="#">1</a></li>-->
+                    <!--<li><a href="#">2</a></li>-->
+                    <!--<li><a href="#">3</a></li>-->
+                    <!--<li><a href="#">下一页</a></li>-->
+                <!--</ul>-->
+            </div>
+            <script src="__PUBLIC__/js/noMargin.js" type="text/javascript" charset="utf-8"></script>
+        </div>
+</block>

@@ -1,0 +1,196 @@
+/*#main{*/
+    /*width: 1100px;*/
+    /*margin: 0 auto;*/
+/*}*/
+#main{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.twtop{
+    width: 1100px;
+    height: 120px;
+}
+.twtop .biaoti{
+    width: 1100px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 2px solid gray;
+    float: left;
+}
+.twtop .shijian{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+.twtop .zuozhe{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+}
+.twtop .zuozhe span{
+    font-size: 16px;
+    color: gray;
+}
+.twmiddle{
+    width: 1100px;
+    height:100%;
+    float: left;
+}
+.twfoot .pinglun{
+    width: 1100px;
+    float: left;
+    margin-top: 30px;
+    border: 1px solid gray;
+}
+.pinglun #div1{
+    width: 1100px;
+    height: 300px;
+}
+.twfoot .liuyan{
+    width: 1100px;
+    height:100%;
+    float: left;
+}
+.ly {
+    margin-top: 60px;
+}
+.ly .yk .ykname{
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    color: gray;
+}
+.ly .yk{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+.ly .yk img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+.ly .yk p{
+    color: gray;
+    font-size: 12px;
+    float: right;
+    line-height: 40px;
+}
+.ly .yk .commentUserName{
+    color: gray;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+
+
+#hot_tuiwen{
+    width: 100%;
+    clear: both;
+    padding-top: 20px;
+}
+#hot_tuiwen .content{
+    width: 100%;
+    margin-top: 20px;
+}
+#hot_tuiwen .box{
+    width: 23%;
+
+    float: left;
+    margin-right: 27px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 10px #F0F0F0;//边框阴影
+}
+#hot_tuiwen .box:hover{
+    box-shadow: 3px 3px 10px #cccccc;
+}
+#hot_tuiwen .content .noMargin{
+    margin-right: 0px
+}
+#hot_tuiwen a{
+    color:#000000;
+}
+#hot_tuiwen .box .top{
+    font-size: 15px;
+}
+#hot_tuiwen .box .time,
+#hot_tuiwen .box .author{
+    width: 50%;
+    float: left;
+    color: #CCCCCC;
+}
+#hot_tuiwen .box .author{
+    text-align: right;
+}
+#hot_tuiwen .box .info .img{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+#hot_tuiwen .box .info img{
+    width: 100%;
+    height: 150px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+#hot_tuiwen .box:hover img{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#hot_tuiwen .box .info .content{
+    height: 40px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+}
+.chose{
+    width: 300px;
+    height: 50px;
+    clear: both;
+    float: right;
+    color: dimgray;
+}
+.chose ul li{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.biaobai{
+    width: 1000px;
+    height: 300px;
+    clear: both;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: hotpink;
+}
+.rows{
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-right: 5px;
+}
+.num{
+    /*margin: 10px;*/
+    margin-right: 10px;
+}
+.current{
+    color: red;
+    margin-right: 10px;
+}
+

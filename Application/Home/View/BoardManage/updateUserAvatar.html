@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/tiebaUse.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/personal_head.css"/>
+	</head>
+	<body>
+		<div id="box">
+			<h3>设置个人头像</h3><br />
+
+			<form action="" method="post">
+				<notempty name="u_headicon">
+						当前头像:
+						<img src="{$u_headicon}" id="pic"/>
+						<!--重新按钮-->
+						<br /><br />
+				<else/>
+					当前头像:
+					<img src="__PUBLIC__/img/default_avatar.png" id="pic"/>
+					<!--重新按钮-->
+					<br /><br />
+				</notempty>
+				<a href="{:U('BoardManage/setUserAvatar',array('u_id'=>$u_id))}" id="reset_head">更换头像</a>
+			</form>
+		</div>
+	</body>
+</html>

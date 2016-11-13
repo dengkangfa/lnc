@@ -1,0 +1,44 @@
+[ 2016-11-11T16:56:22+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/53
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_title`, CONSTRAINT `fk_one` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 53
+
+[ 2016-11-11T16:57:38+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/53
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_title`, CONSTRAINT `fk_one` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 53
+
+[ 2016-11-11T16:58:38+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/53
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_title`, CONSTRAINT `fk_one` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 53
+
+[ 2016-11-11T17:00:00+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_title`, CONSTRAINT `fk_one` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+
+[ 2016-11-11T17:01:14+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_title`, CONSTRAINT `fk_one` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+
+[ 2016-11-11T17:01:31+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_title`, CONSTRAINT `fk_one` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+
+[ 2016-11-11T17:08:47+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_title`, CONSTRAINT `fk_one` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+
+[ 2016-11-11T17:10:01+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_title`, CONSTRAINT `fk_one` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+
+[ 2016-11-11T17:11:01+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_author`, CONSTRAINT `lnc_tweets_author_ibfk_1` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+
+[ 2016-11-11T17:11:46+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_author`, CONSTRAINT `lnc_tweets_author_ibfk_1` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+
+[ 2016-11-11T17:11:53+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_author`, CONSTRAINT `lnc_tweets_author_ibfk_1` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+

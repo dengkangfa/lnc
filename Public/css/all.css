@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+ul{
+	list-style: none;
+}
+.rgb{
+	color: rgb(142,22,20);
+}
+.button{
+	width: 50px;
+  	height: 25px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.button:active{
+	background: red;
+}
+.bsBox{
+	box-sizing: border-box;
+	padding: 10px;
+}
+.text{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid rgb(142,22,20);
+	height: 35px;
+	width: 50%;
+	text-indent: 10px;
+}

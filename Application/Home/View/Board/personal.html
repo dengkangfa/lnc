@@ -1,0 +1,29 @@
+<extend name="Public:boardbase"/>
+<!-------------------------中间部分------------------->
+<block name="main">
+    <!--<link rel="stylesheet"  type="text/css" href="__PUBLIC__/css/personal_bar.css"/>-->
+<div id="body-p">
+    <!--大的面积部分-->
+    <notempty name="post">
+        <foreach name="post" item="vo">
+            <div class="tall bsBox">
+                <div class="title">
+                    <p class="title-word"><a href="/lnc/Post/index/id/{$vo.p_id}" target="_blank">{$vo.title}</a></p>
+                    <div class="people">
+                        <span>发布者：</span>
+                        <span>{$vo.u_name}</span>
+                    </div>
+                    <div class="time">
+                        <span>{$vo.p_date|date='Y-m-d',###}</span>
+                    </div>
+                </div>
+                <!--楼主里面内容-->
+                <div class="content">
+                    {$vo.content}
+                </div>
+            </div>
+        </foreach>
+    </notempty>
+</div>
+</block>
+

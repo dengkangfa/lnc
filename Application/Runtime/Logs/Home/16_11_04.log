@@ -1,0 +1,33 @@
+[ 2016-11-04T11:12:10+08:00 ] ::1 /lnc/BoardManage/postDelete/id/29
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_post_content`, CONSTRAINT `lnc_post_content_ibfk_1` FOREIGN KEY (`p_id`) REFERENCES `lnc_post` (`p_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_post` WHERE `p_id` = '29'
+
+[ 2016-11-04T11:14:23+08:00 ] ::1 /lnc/BoardManage/postDelete/id/29
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_post_content`, CONSTRAINT `lnc_post_content_ibfk_1` FOREIGN KEY (`p_id`) REFERENCES `lnc_post` (`p_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_post` WHERE `p_id` = '29'
+
+[ 2016-11-04T12:19:25+08:00 ] ::1 /lnc/BoardManage/postDelete/id/29
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_post_content`, CONSTRAINT `lnc_post_content_ibfk_1` FOREIGN KEY (`p_id`) REFERENCES `lnc_post` (`p_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_post` WHERE `p_id` = '29'
+
+[ 2016-11-04T12:29:29+08:00 ] ::1 /lnc/index.php/Home/BoardManage/tweetsManagement.tuiwen_management.html
+ERR: 非法操作:tweetsManagement.tuiwen_management
+
+[ 2016-11-04T12:29:55+08:00 ] ::1 /lnc/index.php/Home/BoardManage/tweetsManagement.tuiwen_management.html
+ERR: 非法操作:tweetsManagement.tuiwen_management
+
+[ 2016-11-04T12:29:56+08:00 ] ::1 /lnc/index.php/Home/BoardManage/tweetsManagement.tuiwen_management.html
+ERR: 非法操作:tweetsManagement.tuiwen_management
+
+[ 2016-11-04T12:29:58+08:00 ] ::1 /lnc/index.php/Home/BoardManage/tweetsManagement.tuiwen_management.html
+ERR: 非法操作:tweetsManagement.tuiwen_management
+
+[ 2016-11-04T12:30:00+08:00 ] ::1 /lnc/index.php/Home/BoardManage/tweetsManagement.tuiwen_management.html
+ERR: 非法操作:tweetsManagement.tuiwen_management
+
+[ 2016-11-04T12:32:02+08:00 ] ::1 /lnc/index.php/BoardManage/NAN.html
+ERR: 非法操作:NAN
+
+[ 2016-11-04T12:33:02+08:00 ] ::1 /lnc/index.php/BoardManage/tweetsManagement.html
+ERR: 模板不存在:./Application/Home/View/BoardManage/tweetsManagement.html
+

@@ -1,0 +1,16 @@
+[ 2016-11-12T15:52:53+08:00 ] ::1 /lnc/BoardManage/deleteTweets/t_id/10
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`lnc`.`lnc_tweets_author`, CONSTRAINT `lnc_tweets_author_ibfk_1` FOREIGN KEY (`t_id`) REFERENCES `lnc_tweets` (`t_id`))
+ [ SQL语句 ] : DELETE FROM `lnc_tweets` WHERE `t_id` = 10
+
+[ 2016-11-12T15:53:58+08:00 ] ::1 /lnc/index.php/BoardManage/u_id/10045.html
+ERR: 非法操作:u_id
+
+[ 2016-11-12T15:54:07+08:00 ] ::1 /lnc/index.php/BoardManage/u_id/10045.html
+ERR: 非法操作:u_id
+
+[ 2016-11-12T15:55:09+08:00 ] ::1 /lnc/index.php/BoardManage/u_id/10045.html
+ERR: 非法操作:u_id
+
+[ 2016-11-12T15:55:21+08:00 ] ::1 /lnc/index.php/BoardManage/id/10045.html
+ERR: 非法操作:id
+

@@ -1,0 +1,11 @@
+.left,.right{
+	float: left;
+}
+ul{
+	float: right;
+}
+ul li{
+	float: left;
+	width: 30px;
+}
+

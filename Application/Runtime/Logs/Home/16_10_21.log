@@ -1,0 +1,90 @@
+[ 2016-10-21T19:59:39+08:00 ] ::1 /lnc/index.php/Tweets/index/p/14.html
+ERR: Think\Model:realtion方法不存在！
+
+[ 2016-10-21T20:01:34+08:00 ] ::1 /lnc/index.php/Tweets/verify.html
+ERR: 无法加载控制器:Tweets
+
+[ 2016-10-21T20:11:28+08:00 ] ::1 /lnc/index.php/Tweets/index/p/1.html
+ERR: 1054:Unknown column 'tweets.t_data' in 'field list'
+ [ SQL语句 ] : SELECT tweets.t_data AS t_data,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state FROM lnc_tweets tweets LIMIT 0,8  
+
+[ 2016-10-21T20:33:51+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1146:Table 'lnc.lnc_tweets_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lnc_tweets_view`
+
+[ 2016-10-21T20:34:02+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id INNER JOIN lnc_tweets_title ON lnc_tweets.t_id = lnc_tweets_title.t_id INNER JOIN lnc_tweets_author ON lnc_tweets.t_id = lnc_tweets_author.t_id INNER JOIN lnc_tweets_content ON lnc_tweets.t_id = lnc_tweets_content.t_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:06+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id INNER JOIN lnc_tweets_title ON lnc_tweets.t_id = lnc_tweets_title.t_id INNER JOIN lnc_tweets_author ON lnc_tweets.t_id = lnc_tweets_author.t_id INNER JOIN lnc_tweets_content ON lnc_tweets.t_id = lnc_tweets_content.t_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:12+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:13+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:34+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:34+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:35+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:35+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:35+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:34:35+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:35:36+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:35:36+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:35:36+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:36:08+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT lnc_user.u_headicon,lnc_user.u_name,lnc_tweets_comment.comment,lnc_tweets_comment.date FROM `lnc_tweets_comment` INNER JOIN lnc_tweets ON lnc_tweets_comment.t_id = lnc_tweets.t_id INNER JOIN lnc_user ON lnc_tweets_comment.u_id = lnc_user.u_id  WHERE ( lnc_tweets.t_id =  ) 
+
+[ 2016-10-21T20:38:21+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/6
+ERR: 1054:Unknown column 'lnc_tweets.t_id' in 'where clause'
+ [ SQL语句 ] : SELECT tweets.t_id AS t_id,tweets.t_date AS t_date,tweets.t_cover AS t_cover,tweets.t_read AS t_read,tweets.t_state AS t_state,tweets_author.author AS author,tweets_content.content AS content,tweets_title.title AS title FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id WHERE ( lnc_tweets.t_id = 6 ) 
+
+[ 2016-10-21T20:40:53+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/6
+ERR: 1054:Unknown column 'lnc_tweets.t_id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id INNER JOIN lnc_tweets_title ON lnc_tweets.t_id = lnc_tweets_title.t_id INNER JOIN lnc_tweets_author ON lnc_tweets.t_id = lnc_tweets_author.t_id INNER JOIN lnc_tweets_content ON lnc_tweets.t_id = lnc_tweets_content.t_id  WHERE ( tweets.t_id = 6 ) 
+
+[ 2016-10-21T20:41:01+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/6
+ERR: 1054:Unknown column 'lnc_tweets.t_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id INNER JOIN lnc_tweets_title ON lnc_tweets.t_id = lnc_tweets_title.t_id INNER JOIN lnc_tweets_author ON lnc_tweets.t_id = lnc_tweets_author.t_id INNER JOIN lnc_tweets_content ON lnc_tweets.t_id = lnc_tweets_content.t_id  WHERE ( lnc_tweets.t_id = 6 ) 
+
+[ 2016-10-21T20:41:01+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/6
+ERR: 1054:Unknown column 'lnc_tweets.t_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM lnc_tweets tweets  JOIN lnc_tweets_author tweets_author ON tweets.t_id=tweets_author.t_id  JOIN lnc_tweets_content tweets_content ON tweets.t_id=tweets_content.t_id  JOIN lnc_tweets_title tweets_title ON tweets.t_id=tweets_title.t_id INNER JOIN lnc_tweets_title ON lnc_tweets.t_id = lnc_tweets_title.t_id INNER JOIN lnc_tweets_author ON lnc_tweets.t_id = lnc_tweets_author.t_id INNER JOIN lnc_tweets_content ON lnc_tweets.t_id = lnc_tweets_content.t_id  WHERE ( lnc_tweets.t_id = 6 ) 
+
+[ 2016-10-21T20:42:34+08:00 ] ::1 /lnc/Tweets/tweetdetails/id/6
+ERR: 1054:Unknown column 'tweets.t_id' in 'where clause'
+ [ SQL语句 ] : SELECT lnc_tweets_title.title,lnc_tweets_author.author,lnc_tweets.t_date,lnc_tweets_content.content FROM `lnc_tweets` INNER JOIN lnc_tweets_title ON lnc_tweets.t_id = lnc_tweets_title.t_id INNER JOIN lnc_tweets_author ON lnc_tweets.t_id = lnc_tweets_author.t_id INNER JOIN lnc_tweets_content ON lnc_tweets.t_id = lnc_tweets_content.t_id  WHERE ( tweets.t_id = 6 ) 
+

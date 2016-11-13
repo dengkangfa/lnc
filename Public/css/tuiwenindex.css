@@ -1,0 +1,299 @@
+/*--------------------页眉---------------------*/
+#top{
+	width: 100%;
+	min-width: 1100px;
+	height: 100px;
+	background: rgb(142,22,20);
+}
+#top .out{
+	width: 1100px;
+	height: 100px;
+	line-height: 100px;
+	color: #FFF;
+	margin: 0 auto;
+}
+.out .logo{
+	width: 20%;
+	font-size: 35px;
+	float: left;
+}
+.out .tab{
+	width: 30%;
+	float: left;
+	color: #FFF;
+	font-size: 15px;
+	position: relative;
+}
+.out .tab li{
+	width: 80px;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+.out .tab li a{
+	color: #FFF;
+}
+/*贴吧扩展*/
+.out .tab #tieba_btn:hover .list{
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	height: 100px;
+}
+.out .tab .list{
+	color: #000;
+	width: 150px;
+	height: 0px;
+	overflow: hidden;
+	background: #FFF;
+	position: absolute;
+	top: 60px;
+	right: 0px;
+	z-index: 100;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.out .tab .list li{
+	width: 150px;
+	height: 50px;
+	text-indent: 20px;
+	text-align: left;
+	line-height: 50px;
+}
+.out .tab .list li:hover{
+	color:rgb(142,22,20);
+
+}
+/*登陆按钮以及搜索框*/
+.out .btn_search{
+	width: 300px;
+	float: right;
+}
+
+.btn_search li{
+	width: 50px;
+	height: 25px;
+	float: left;
+	text-align: right;
+	margin-left: 10px;
+}
+.btn_search #search{
+	width: 150px;
+	height: 25px;
+	border: none;
+	outline: none;
+	text-indent: 5px;
+}
+
+/*--------------------登陆窗口------------------*/
+#login_register{
+	width: 1100px;
+	height:0px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#login_register ul li{
+	margin-bottom: 10px;
+	height: 35px;
+	line-height: 35px;
+}
+/*登陆 注册*/
+#login_register .left{
+	width: 900px;
+	height:250px;
+	position: absolute;
+	left: 0;
+	overflow: hidden;
+}
+#login_register .left .out{
+	width: 1800px;
+	height: 250px;
+	position: relative;
+	left: 0;
+}
+#login_register .left .box{
+	width: 900px;
+	height: 250px;
+	float: left;
+}
+/*登陆*/
+#login_register .frame{
+	width: 90%;
+	height: 210px;
+	margin: 0 auto;
+	position: relative;
+}
+#login_register .frame .one,#login_register .frame .two{
+	width: 40%;
+	height: 210px;
+	float: left;
+}
+#login_register .frame .one{
+	text-align: right;
+}
+#login_register .frame .two{
+	text-align: left;
+}
+#login_register #ok,
+#login_register #re{
+	width: 140px;
+	height: 30px;
+	background: rgb(142,22,20);
+	color: #FFF;
+	cursor: pointer;
+}
+
+#login_register .toBtn{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: rgb(142,22,20);
+	color: #FFF;
+	cursor: pointer;
+}
+#login_register .toBtn:hover,
+#login_register #ok:hover{
+	background: red;
+}
+#login_register #yanzheng{
+	width: 100px;
+	height: 30px;
+	float: left;
+	background: rgb(142,22,20);
+}
+/*注册*/
+#login_register .register .three{
+	width: 65%;
+	height: 210px;
+	float: left;
+	text-align: right;
+}
+#login_register .register .three .text{
+	width: 40%;
+}
+#login_register .register .four{
+	width: 35%;
+	height: 210px;
+	float: left;
+}
+#login_register #re{
+	margin-right: 33px;
+}
+
+
+/*跳转*/
+#login_register #toLogin{
+	position: absolute;
+	left: 50px;
+	top: 100px;
+}
+#login_register #toRegister{
+	position: absolute;
+	right: 50px;
+	top: 100px;
+}
+/*二维码*/
+#login_register .right{
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 0;
+}
+#login_register .right img{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	bottom: 30px;
+	left: 300px;
+}
+#login_register .right span{
+	position: absolute;
+	top: 20px;
+	left: -200px;
+}
+/*--------------------主体内容------------------*/
+#main{
+	width: 1100px;
+	margin: 0 auto;
+}
+.twtop{
+     width: 1100px;
+     height: 120px;
+}
+.twtop .biaoti{
+    width: 1100px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 2px solid gray;
+    float: left;
+}
+.twtop .shijian{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+.twtop .zuozhe{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+}
+.twtop .zuozhe span{
+    font-size: 16px;
+    color: gray;
+}
+.twmiddle{
+    width: 1100px;
+    height:100%;
+    float: left;
+}
+.twfoot .pinglun{
+    width: 1100px;
+    float: left;
+    margin-top: 30px;
+    border: 1px solid gray;
+}
+.pinglun #div1{
+    width: 1100px;
+    height: 300px;
+}
+.twfoot .liuyan{
+    width: 1100px;
+    height:100%;
+    float: left;
+}
+.ly {
+    margin-top: 60px;
+}
+.ly .yk .ykname{
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    color: gray;
+}
+.ly .yk{
+    width: 700px;
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+.ly .yk img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+.ly .yk p{
+    color: gray;
+    font-size: 12px;
+    float: right;
+    line-height: 40px;
+}
+
+
